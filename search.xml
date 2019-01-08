@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[cube]]></title>
+    <url>%2F2019%2F01%2F08%2Fcube%2F</url>
+    <content type="text"><![CDATA[Rubix Cube对我而言,魔方是无法割舍的一个部分吧]]></content>
+      <tags>
+        <tag>cube,speeding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[第一篇]]></title>
+    <url>%2F2019%2F01%2F08%2F%E7%AC%AC%E4%B8%80%E7%AF%87%2F</url>
+    <content type="text"><![CDATA[我的第一篇博文第一篇博文,没有想到居然是这样的唉.首先应该提及现在我面临着大学第一次的期末考试,而我还在这儿玩电脑搭建博客.想想还真的是悠闲啊.所以还是赶紧下线吧.]]></content>
+      <tags>
+        <tag>困难</tag>
+        <tag>苦恼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[testpage]]></title>
+    <url>%2F2019%2F01%2F05%2Ftestpage%2F</url>
+    <content type="text"><![CDATA[1 hfdk1.1 互动lawye.script kjhsadkjh 1 2 3 in和国际化国际化国际化 UI爱的kjhfkhkjkkk画江湖 带我回答jshfj for my ownlol,lolthis linkanything else is to 试试中文支持如何\pi import sympy**iuhiuwefhuuuhuehu ueh uue-h ueehue euheu hue ue uehe u eh ehu eu eu– $$ z=\frac{1}{2}+v\sqrt{3}$$ A single backtick in a code span: `A backtick-delimited string in a code span: `foo` 12345#include&lt;cstdio&gt;int main()&#123; int a; printf("hello world");&#125; 123import sympy as sx=symbols('x')print(x**2+x,x)]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F01%2F05%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
