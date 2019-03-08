@@ -3,7 +3,11 @@
   <entry>
     <title><![CDATA[nethunter与android系统装机]]></title>
     <url>%2F2019%2F02%2F26%2Fnethunter%E4%B8%8Eandroid%E7%B3%BB%E7%BB%9F%E8%A3%85%E6%9C%BA%2F</url>
-    <content type="text"><![CDATA[装kali nethunternexus 5x实体很轻巧,做工精细,原生Android系统手感很好,就是Google需要科学上网比较伤.手机内存cpu运行不是很流畅,不能玩大型游戏.不过可以玩Google play下的小游戏. ##安装kali nethunter理论流程 保存ROM包,在电脑上安装adb,fastboot等环境 在系统里设置USB调试,OEM解锁(类似选项),退出Google账户 命令行 输入adb devices检查设备是否连接 输入adb reboot bootloader进入手机BIOS模式 输入fastboot oem unlock或fastboot flashing unlock解锁oem锁,再利用fastboot flash recovery twrp.img重载bootloader,其中twrp.img是TWRP官网上下载的第三方bootloader 重启进recovery模式(也可以重启再输入adb reboot recovery) 点击advanced选项,adb sideload选项. pc端测试连接后,adb sideload nethunter.zip载入nethunter 在手机端操作安装完成重启 结束 我的第一次装机实战流程 同1 没有解锁oem,没有退出Google账户 先谨慎的刷了一遍官网下载的Android系统,使用的是原装bootloader. 没有问题就解锁oem锁,刷入twrp 在twrp下完成kali nethunter的安装 开机后发现安装选项选错,没有达到我预期的效果 打算重装系统重新来一遍 由于twrp安装后系统开机显示警告,于是就把oem锁上了 oem已锁的情况下无法进行data分区解密 尝试进入系统,发现卡在开机界面 重启重新进recovery,重新刷原生系统发现sideload无效. 尝试用push方法将ROM包发送至sdcard,在twrp中卡刷 成功刷入原生系统 进入系统发现无法跳过网络验证环节 尝试科学上网,失败 尝试刷入第三方系统 flyme失败 MTC失败 choroma成功 进入系统开启oem锁 重新用官方factory版本刷机刷回出厂 重新安装twrp和kali nethunter 结束 过程十分曲折,消耗了我大量精力和时间(耗时三天).结果也并不令人十分高兴(安装了一个app叫kali nethunter)并且现阶段我对这个app没有需求. 但是不是没有收获.我知道了Android系统是基于Linux系统的变种也知道了除内核外Android的运行方式. 下一次我希望可以在自己的手机上删除不想要的功能.]]></content>
+    <content type="text"><![CDATA[装kali nethunter nexus 5x实体很轻巧,做工精细,原生Android系统手感很好,就是Google需要科学上网比较伤.手机内存cpu运行不是很流畅,不能玩大型游戏.不过可以玩Google play下的小游戏. ##安装kali nethunter理论流程 保存ROM包,在电脑上安装adb,fastboot等环境 在系统里设置USB调试,OEM解锁(类似选项),退出Google账户 命令行 输入adb devices检查设备是否连接 输入adb reboot bootloader进入手机BIOS模式 输入fastboot oem unlock或fastboot flashing unlock解锁oem锁,再利用fastboot flash recovery twrp.img重载bootloader,其中twrp.img是TWRP官网上下载的第三方bootloader 重启进recovery模式(也可以重启再输入adb reboot recovery) 点击advanced选项,adb sideload选项. pc端测试连接后,adb sideload nethunter.zip载入nethunter 在手机端操作安装完成重启 结束 我的第一次装机实战流程 同1 没有解锁oem,没有退出Google账户 先谨慎的刷了一遍官网下载的Android系统,使用的是原装bootloader. 没有问题就解锁oem锁,刷入twrp 在twrp下完成kali nethunter的安装 开机后发现安装选项选错,没有达到我预期的效果 打算重装系统重新来一遍 由于twrp安装后系统开机显示警告,于是就把oem锁上了 oem已锁的情况下无法进行data分区解密 尝试进入系统,发现卡在开机界面 重启重新进recovery,重新刷原生系统发现sideload无效. 尝试用push方法将ROM包发送至sdcard,在twrp中卡刷 成功刷入原生系统 进入系统发现无法跳过网络验证环节 尝试科学上网,失败 尝试刷入第三方系统 flyme失败 MTC失败 choroma成功 进入系统开启oem锁 重新用官方factory版本刷机刷回出厂 重新安装twrp和kali nethunter 结束 过程十分曲折,消耗了我大量精力和时间(耗时三天).结果也并不令人十分高兴(安装了一个app叫kali nethunter)并且现阶段我对这个app没有需求. 但是不是没有收获.我知道了Android系统是基于Linux系统的变种也知道了除内核外Android的运行方式. 下一次我希望可以在自己的手机上删除不想要的功能.]]></content>
+      <tags>
+        <tag>大一</tag>
+        <tag>Android</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[流浪地球观影]]></title>
@@ -39,9 +43,9 @@
     <url>%2F2019%2F01%2F25%2F%E7%BE%8E%E8%B5%9B%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%98%AF1%E6%9C%8825%E6%97%A5-57%2F</url>
     <content type="text"><![CDATA[美赛有关美赛的部分需要等美赛结束后才可以公布 现在是无所谓了. 美赛就是爆肝爆肝爆肝.第一天对这个题目完全没有想法.以为这是一个元胞自动机似的题目 ANATA今天是57天..11月30号到现在的日子.]]></content>
       <tags>
-        <tag>美赛</tag>
         <tag>情感</tag>
         <tag>大学</tag>
+        <tag>美赛</tag>
       </tags>
   </entry>
   <entry>
@@ -103,7 +107,7 @@
   <entry>
     <title><![CDATA[testpage]]></title>
     <url>%2F2019%2F01%2F05%2Ftestpage%2F</url>
-    <content type="text"><![CDATA[1 hfdk 1.1 互动 lawye.script kjhsadkjh 1 2 😄 3 in和国际化国际化国际化 UI爱的kjhfkhkjkkk 画江湖 带我回答jshfj for my own lol,lolthis link anything else is to 试试中文支持如何$\large\pi$ import sympy iuhiuwefhuuuhuehu ueh uue- h ue ehue euheu hue ue uehe u eh ehu eu eu-- $$ z=\frac{1}{2}+v\sqrt{3}$$ we have mathjax now! A single backtick in a code span: ` A backtick-delimited string in a code span: `foo` 12345#include&lt;cstdio&gt;int main()&#123; int a; printf("hello world");&#125; 12345678910import sympy as sx=symbols('x')print(x**2+x,x)if a&gt;b: print aelif a=b: a=belse: breakfor [ ] todo1 [x] todo]]></content>
+    <content type="text"><![CDATA[1 hfdk1.1 互动lawye.script kjhsadkjh 1 2 :smile: 3 in和国际化国际化国际化 UI爱的kjhfkhkjkkk画江湖 带我回答jshfj for my ownlol,lolthis linkanything else is to 试试中文支持如何$\large\pi$ import sympyiuhiuwefhuuuhuehu ueh uue- h ue ehue euheu hue ue uehe u eh ehu eu eu– $$ z=\frac{1}{2}+v\sqrt{3}$$we have mathjax now! A single backtick in a code span: `A backtick-delimited string in a code span: `foo` 12345#include&lt;cstdio&gt;int main()&#123; int a; printf("hello world");&#125; 12345678910import sympy as sx=symbols('x')print(x**2+x,x)if a&gt;b: print aelif a=b: a=belse: breakfor [ ] todo1[x] todo]]></content>
       <tags>
         <tag>test</tag>
       </tags>
@@ -111,6 +115,6 @@
   <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F01%2F05%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick Start Create a new post 1$ hexo new "My New Post" More info: Writing Run server 1$ hexo server More info: Server Generate static files 1$ hexo generate More info: Generating Deploy to remote sites 1$ hexo deploy More info: Deployment]]></content>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
