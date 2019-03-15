@@ -3,31 +3,33 @@
   <entry>
     <title><![CDATA[RandomForest的几个参考文献]]></title>
     <url>%2F2019%2F03%2F14%2FRandomForest%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%2F</url>
-    <content type="text"><![CDATA[Websites WIKI: Random Forest Rényi entropy Decision tree learning 随机森林原理介绍与适用情况（综述篇） [Machine Learning &amp; Algorithm] 随机森林（Random Forest） Article Keystroke Dynamics Based Authentication Using Possibilistic Renyi Entropy Features and Composite Fuzzy Classifier]]></content>
+    <content type="text"><![CDATA[FRB Websites WIKI: Random Forest Rényi entropy Decision tree learning 随机森林原理介绍与适用情况（综述篇） [Machine Learning &amp; Algorithm] 随机森林（Random Forest） Article Keystroke Dynamics Based Authentication Using Possibilistic Renyi Entropy Features and Composite Fuzzy Classifier]]></content>
       <categories>
         <category>REFERENCE</category>
       </categories>
       <tags>
         <tag>大一</tag>
         <tag>算法</tag>
+        <tag>冯如杯</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[击键动力学与py画图]]></title>
     <url>%2F2019%2F03%2F09%2F%E5%87%BB%E9%94%AE%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%8Epy%E7%94%BB%E5%9B%BE%2F</url>
-    <content type="text"><![CDATA[一切都是冯如惹的祸冯如嘛,冯如杯嘛 击键动力学是什么自己看wiki. 不懂就google是一个好习惯,尤其是当校园网可以上google时 python3怎么画图需要引入一个叫matplotlib的库:这个库的用途是画图,就是点线面. 如果画的图比较大,即数据比较多,存放在表格里,我们就需要将其保存为csv文件,并且用pandas的read_csv函数读入这个文件.如f=read_csv(&quot;路径&quot;,engine=&#39;python&#39;) 读入的数据分为两部分,表头和数据,分别可以用f.columns.tolist()和f.values.tolist()转换为列表.后面就是自说自话各显神通了 画线或者点的格式是matplotlib.pyplot.plot(XList,YList,color=&#39;red&#39;,linestyle=&#39;-&#39;,marker=&#39;.&#39;)参数自己换吧. 显示图片是matplotlib.pyplot.show() 这里有一张不在论文里用的图可以看一看]]></content>
+    <content type="text"><![CDATA[FRB 一切都是冯如惹的祸冯如嘛,冯如杯嘛 击键动力学是什么自己看wiki. 不懂就google是一个好习惯,尤其是当校园网可以上google时 python3怎么画图需要引入一个叫matplotlib的库:这个库的用途是画图,就是点线面. 如果画的图比较大,即数据比较多,存放在表格里,我们就需要将其保存为csv文件,并且用pandas的read_csv函数读入这个文件.如f=read_csv(&quot;路径&quot;,engine=&#39;python&#39;) 读入的数据分为两部分,表头和数据,分别可以用f.columns.tolist()和f.values.tolist()转换为列表.后面就是自说自话各显神通了 画线或者点的格式是matplotlib.pyplot.plot(XList,YList,color=&#39;red&#39;,linestyle=&#39;-&#39;,marker=&#39;.&#39;)参数自己换吧. 显示图片是matplotlib.pyplot.show() 这里有一张不在论文里用的图可以看一看]]></content>
       <categories>
         <category>GUIDE</category>
       </categories>
       <tags>
         <tag>大一</tag>
         <tag>code</tag>
+        <tag>冯如杯</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[nethunter与android系统装机]]></title>
     <url>%2F2019%2F02%2F26%2Fnethunter%E4%B8%8Eandroid%E7%B3%BB%E7%BB%9F%E8%A3%85%E6%9C%BA%2F</url>
-    <content type="text"><![CDATA[装kali nethunternexus 5x实体很轻巧,做工精细,原生Android系统手感很好,就是Google需要科学上网比较伤.手机内存cpu运行不是很流畅,不能玩大型游戏.不过可以玩Google play下的小游戏. ##安装kali nethunter理论流程 保存ROM包,在电脑上安装adb,fastboot等环境 在系统里设置USB调试,OEM解锁(类似选项),退出Google账户 命令行 输入adb devices检查设备是否连接 输入adb reboot bootloader进入手机BIOS模式 输入fastboot oem unlock或fastboot flashing unlock解锁oem锁,再利用fastboot flash recovery twrp.img重载bootloader,其中twrp.img是TWRP官网上下载的第三方bootloader 重启进recovery模式(也可以重启再输入adb reboot recovery) 点击advanced选项,adb sideload选项. pc端测试连接后,adb sideload nethunter.zip载入nethunter 在手机端操作安装完成重启 结束 我的第一次装机实战流程 同1 没有解锁oem,没有退出Google账户 先谨慎的刷了一遍官网下载的Android系统,使用的是原装bootloader. 没有问题就解锁oem锁,刷入twrp 在twrp下完成kali nethunter的安装 开机后发现安装选项选错,没有达到我预期的效果 打算重装系统重新来一遍 由于twrp安装后系统开机显示警告,于是就把oem锁上了 oem已锁的情况下无法进行data分区解密 尝试进入系统,发现卡在开机界面 重启重新进recovery,重新刷原生系统发现sideload无效. 尝试用push方法将ROM包发送至sdcard,在twrp中卡刷 成功刷入原生系统 进入系统发现无法跳过网络验证环节 尝试科学上网,失败 尝试刷入第三方系统 flyme失败 MTC失败 choroma成功 进入系统开启oem锁 重新用官方factory版本刷机刷回出厂 重新安装twrp和kali nethunter 结束 过程十分曲折,消耗了我大量精力和时间(耗时三天).结果也并不令人十分高兴(安装了一个app叫kali nethunter)并且现阶段我对这个app没有需求. 但是不是没有收获.我知道了Android系统是基于Linux系统的变种也知道了除内核外Android的运行方式. 下一次我希望可以在自己的手机上删除不想要的功能.]]></content>
+    <content type="text"><![CDATA[只是安装了一个kali在nexus 5x(350RMB)上 装kali nethunternexus 5x实体很轻巧,做工精细,原生Android系统手感很好,就是Google需要科学上网比较伤.手机内存cpu运行不是很流畅,不能玩大型游戏.不过可以玩Google play下的小游戏. ##安装kali nethunter理论流程 保存ROM包,在电脑上安装adb,fastboot等环境 在系统里设置USB调试,OEM解锁(类似选项),退出Google账户 命令行 输入adb devices检查设备是否连接 输入adb reboot bootloader进入手机BIOS模式 输入fastboot oem unlock或fastboot flashing unlock解锁oem锁,再利用fastboot flash recovery twrp.img重载bootloader,其中twrp.img是TWRP官网上下载的第三方bootloader 重启进recovery模式(也可以重启再输入adb reboot recovery) 点击advanced选项,adb sideload选项. pc端测试连接后,adb sideload nethunter.zip载入nethunter 在手机端操作安装完成重启 结束 我的第一次装机实战流程 同1 没有解锁oem,没有退出Google账户 先谨慎的刷了一遍官网下载的Android系统,使用的是原装bootloader. 没有问题就解锁oem锁,刷入twrp 在twrp下完成kali nethunter的安装 开机后发现安装选项选错,没有达到我预期的效果 打算重装系统重新来一遍 由于twrp安装后系统开机显示警告,于是就把oem锁上了 oem已锁的情况下无法进行data分区解密 尝试进入系统,发现卡在开机界面 重启重新进recovery,重新刷原生系统发现sideload无效. 尝试用push方法将ROM包发送至sdcard,在twrp中卡刷 成功刷入原生系统 进入系统发现无法跳过网络验证环节 尝试科学上网,失败 尝试刷入第三方系统 flyme失败 MTC失败 choroma成功 进入系统开启oem锁 重新用官方factory版本刷机刷回出厂 重新安装twrp和kali nethunter 结束 过程十分曲折,消耗了我大量精力和时间(耗时三天).结果也并不令人十分高兴(安装了一个app叫kali nethunter)并且现阶段我对这个app没有需求. 但是不是没有收获.我知道了Android系统是基于Linux系统的变种也知道了除内核外Android的运行方式. 下一次我希望可以在自己的手机上删除不想要的功能.]]></content>
       <categories>
         <category>GUIDE</category>
       </categories>
@@ -39,7 +41,7 @@
   <entry>
     <title><![CDATA[流浪地球观影]]></title>
     <url>%2F2019%2F02%2F10%2F%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83%E8%A7%82%E5%BD%B1%2F</url>
-    <content type="text"><![CDATA[流浪地球中国第一部硬科幻电影首先,应该祝福第一部这个坎总算是跨过去了.虽然电影中硬伤很多,台词人物和剧情都有待磨砺,但是总体给我的感受就是不错,至少新年在这里看到一部这样的电影确实比较舒服. 好的地方 设定好,精神内核好 如果没有带上地球,那么这部片子也不能叫流浪地球.最主要的设定就在于人类考虑把地球带上一同去比邻星.根据豆瓣上相关评论,我也赞同这是中国故土情怀的体现.他吸引我的点也在这里. 人物好 户口这个人虽然是常见的叛逆孩子角色,想出去的想法也不成熟,但是最后可以所谓奉献自己生命还是让人感觉]]></content>
+    <content type="text"><![CDATA[吹爆中国科幻 流浪地球中国第一部硬科幻电影首先,应该祝福第一部这个坎总算是跨过去了.虽然电影中硬伤很多,台词人物和剧情都有待磨砺,但是总体给我的感受就是不错,至少新年在这里看到一部这样的电影确实比较舒服. 好的地方 设定好,精神内核好 如果没有带上地球,那么这部片子也不能叫流浪地球.最主要的设定就在于人类考虑把地球带上一同去比邻星.根据豆瓣上相关评论,我也赞同这是中国故土情怀的体现.他吸引我的点也在这里. 人物好 户口这个人虽然是常见的叛逆孩子角色,想出去的想法也不成熟,但是最后可以所谓奉献自己生命还是让人感觉]]></content>
       <categories>
         <category>MOVIE</category>
       </categories>
@@ -51,7 +53,7 @@
   <entry>
     <title><![CDATA[我的原罪]]></title>
     <url>%2F2019%2F02%2F04%2F%E6%88%91%E7%9A%84%E5%8E%9F%E7%BD%AA%2F</url>
-    <content type="text"><![CDATA[记我的内向又不成熟这不是借口,而是烦恼昨天是一个导火索.事情经过大致是: A,目前现在是我的异性朋友. 我的家庭是封建保守的家庭,A的家庭是潮流前卫的家庭.本来家庭之间的差异不会引起这样的后果的. A带我去剪了一个比较前卫的头发.但是按我家的说法叫做社会. 在我家也引起了小风波.此时我犯了在这次事情中的错误[1]:告诉我的家人这个头发是A带我剪的.错因在后面. 过了两天,A独自去医院看胃病.我想去陪她,呵呵,我的懦弱让我不敢开口说出去去医院.寻找了一个A的远方亲戚B,然而B并不在本地.除此之外A在本地的好友便只有我一个.我想去陪她以及把她送回家(然而事实上似乎A并不需要)(应该说是她希望我去陪她但是不去也无妨).这里我连续犯了三个错误: 没有在网络上关心她.[2] 在她说感觉我总是帮不了她时没有和她商量我接下来要做的事[3] 将这件事告诉了家长并且是说她叫我去陪陪她喷血[4] A的成绩不好而我的成绩还行.我家长又十分看中成绩.所以应该是对A形成偏见以为A在引诱我. 没有接到A,我家长就说去A家里转转.哈,当时我以为只是单纯的去转转(楼主傻逼).就去了..[5] 在A家里.我爸看似在说我的教育经历,实际上应该是说所谓的没家教.我当时以为在说我就没有在意.可是我们走了以后A家里爆发了一场异常尖锐的战斗.关注点在于A的学习以及丢人以及爱好(喷血).当时我不明白啊,就直接问了发生什么了.结果就来了一场直播.语言之尖锐难以想象.我很难受.这件事情是由于我而起的. 原因分析 我的懦弱.无法解释自己的头发是是怎么来的.当时是我爸把我带到理发店门口但是我又悄悄离开,和A一起去了另一家.应该是两个人的事情却说成了一个人的事情.不过这个头发如此社会我是剪完才知道的(本人深度近视). 在网络上不知道应该怎么关心.不知道说什么所以什么也没说.无法传递自己的心情 这里我比较伤心.因为这件事情已经在我们之间造成了很大的分歧.我希望可以帮助到周围的人但是总是要么无力要么起到反作用.这是我自己的一个弱点吧. 告诉家长是想让家长去带她回家,省的走路(怕她吃不消).然而最后A是打车回家的. 没有什么原因了,单纯的没有想到. 求助 如何弥补A的家里发生这样的事(时间还是年二九).不仅伤了A的心,还伤了A的家人的心. 关于楼主的性格(懦弱内向),以及一贯处事态度,求助有没有可以改变的方法. 楼主应该如何对待朋友对待周围的人才不会让他们受伤. 今后应该如何交朋友 改经过与友人的交流与学习,我进一步了解到了这件事的结果与之前所发生的一系列事件的根本原因. 首先应该归罪于家庭结构.我与我的父母之间情感沟通少.我原以为这是不需要的但是现在看来我错了.情感是一个人安身立命之本,没有情感的人是不存在的.如果在平时和父母做好情感上的沟通就会使这次的事件变为我独自解决.这样我就多了些许自由. 其次是我一向的做事风格不喜欢和人商量.做事无组织无纪律可还行.不过集体荣誉感感觉还行. 差不多就这样吧. the game is on.]]></content>
+    <content type="text"><![CDATA[感情上的第一次?挫折 记我的内向又不成熟这不是借口,而是烦恼昨天是一个导火索.事情经过大致是: A,目前现在是我的异性朋友. 我的家庭是封建保守的家庭,A的家庭是潮流前卫的家庭.本来家庭之间的差异不会引起这样的后果的. A带我去剪了一个比较前卫的头发.但是按我家的说法叫做社会. 在我家也引起了小风波.此时我犯了在这次事情中的错误[1]:告诉我的家人这个头发是A带我剪的.错因在后面. 过了两天,A独自去医院看胃病.我想去陪她,呵呵,我的懦弱让我不敢开口说出去去医院.寻找了一个A的远方亲戚B,然而B并不在本地.除此之外A在本地的好友便只有我一个.我想去陪她以及把她送回家(然而事实上似乎A并不需要)(应该说是她希望我去陪她但是不去也无妨).这里我连续犯了三个错误: 没有在网络上关心她.[2] 在她说感觉我总是帮不了她时没有和她商量我接下来要做的事[3] 将这件事告诉了家长并且是说她叫我去陪陪她喷血[4] A的成绩不好而我的成绩还行.我家长又十分看中成绩.所以应该是对A形成偏见以为A在引诱我. 没有接到A,我家长就说去A家里转转.哈,当时我以为只是单纯的去转转(楼主傻逼).就去了..[5] 在A家里.我爸看似在说我的教育经历,实际上应该是说所谓的没家教.我当时以为在说我就没有在意.可是我们走了以后A家里爆发了一场异常尖锐的战斗.关注点在于A的学习以及丢人以及爱好(喷血).当时我不明白啊,就直接问了发生什么了.结果就来了一场直播.语言之尖锐难以想象.我很难受.这件事情是由于我而起的. 原因分析 我的懦弱.无法解释自己的头发是是怎么来的.当时是我爸把我带到理发店门口但是我又悄悄离开,和A一起去了另一家.应该是两个人的事情却说成了一个人的事情.不过这个头发如此社会我是剪完才知道的(本人深度近视). 在网络上不知道应该怎么关心.不知道说什么所以什么也没说.无法传递自己的心情 这里我比较伤心.因为这件事情已经在我们之间造成了很大的分歧.我希望可以帮助到周围的人但是总是要么无力要么起到反作用.这是我自己的一个弱点吧. 告诉家长是想让家长去带她回家,省的走路(怕她吃不消).然而最后A是打车回家的. 没有什么原因了,单纯的没有想到. 求助 如何弥补A的家里发生这样的事(时间还是年二九).不仅伤了A的心,还伤了A的家人的心. 关于楼主的性格(懦弱内向),以及一贯处事态度,求助有没有可以改变的方法. 楼主应该如何对待朋友对待周围的人才不会让他们受伤. 今后应该如何交朋友 改经过与友人的交流与学习,我进一步了解到了这件事的结果与之前所发生的一系列事件的根本原因. 首先应该归罪于家庭结构.我与我的父母之间情感沟通少.我原以为这是不需要的但是现在看来我错了.情感是一个人安身立命之本,没有情感的人是不存在的.如果在平时和父母做好情感上的沟通就会使这次的事件变为我独自解决.这样我就多了些许自由. 其次是我一向的做事风格不喜欢和人商量.做事无组织无纪律可还行.不过集体荣誉感感觉还行. 差不多就这样吧. the game is on.]]></content>
       <categories>
         <category>DIARY</category>
       </categories>
@@ -63,7 +65,7 @@
   <entry>
     <title><![CDATA[美赛第三天的转折]]></title>
     <url>%2F2019%2F01%2F27%2F%E7%BE%8E%E8%B5%9B%E7%AC%AC%E4%B8%89%E5%A4%A9%E7%9A%84%E8%BD%AC%E6%8A%98%2F</url>
-    <content type="text"><![CDATA[#美赛第三天的转折 ##有关美赛赛程 由于Python的解整数规划函数会略过条件,所以abandon了原来写好的Python代码(基于pulp),转而使用MATLAB.幸好nikkukun同学的编程效率高,我们得以在中午之前搞好.nikkukun同学又开始写第二部分算法即装箱问题的算法,参考了一个文献.我负责的内容是bibtex和latex的写作以及排版.偶尔跑一会数据.所以电脑占用率比较高.然后就宕机了.]]></content>
+    <content type="text"><![CDATA[就是美赛吧 #美赛第三天的转折 ##有关美赛赛程 由于Python的解整数规划函数会略过条件,所以abandon了原来写好的Python代码(基于pulp),转而使用MATLAB.幸好nikkukun同学的编程效率高,我们得以在中午之前搞好.nikkukun同学又开始写第二部分算法即装箱问题的算法,参考了一个文献.我负责的内容是bibtex和latex的写作以及排版.偶尔跑一会数据.所以电脑占用率比较高.然后就宕机了.]]></content>
       <categories>
         <category>DIARY</category>
       </categories>
@@ -75,7 +77,7 @@
   <entry>
     <title><![CDATA[美赛第一天是1月25日#57]]></title>
     <url>%2F2019%2F01%2F25%2F%E7%BE%8E%E8%B5%9B%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%98%AF1%E6%9C%8825%E6%97%A5-57%2F</url>
-    <content type="text"><![CDATA[美赛有关美赛的部分需要等美赛结束后才可以公布 现在是无所谓了. 美赛就是爆肝爆肝爆肝.第一天对这个题目完全没有想法.以为这是一个元胞自动机似的题目 ANATA今天是57天..11月30号到现在的日子.]]></content>
+    <content type="text"><![CDATA[就是美赛吧 美赛有关美赛的部分需要等美赛结束后才可以公布 现在是无所谓了. 美赛就是爆肝爆肝爆肝.第一天对这个题目完全没有想法.以为这是一个元胞自动机似的题目 ANATA今天是57天..11月30号到现在的日子.]]></content>
       <categories>
         <category>DIARY</category>
       </categories>
@@ -88,7 +90,7 @@
   <entry>
     <title><![CDATA[思修与语文作文]]></title>
     <url>%2F2019%2F01%2F14%2F%E6%80%9D%E4%BF%AE%E4%B8%8E%E8%AF%AD%E6%96%87%E4%BD%9C%E6%96%87%2F</url>
-    <content type="text"><![CDATA[思修前束手无措的我考前我那个慌啊.感觉什么都没有学过,事实上就是什么都没有学.:smile 考试内容倒是普普通通,和样卷差不多 总而言之没有什么意思,成绩也是普普通通.]]></content>
+    <content type="text"><![CDATA[大一思修期末 思修前束手无措的我考前我那个慌啊.感觉什么都没有学过,事实上就是什么都没有学.:smile 考试内容倒是普普通通,和样卷差不多 总而言之没有什么意思,成绩也是普普通通.]]></content>
       <categories>
         <category>EXPERIENCE</category>
       </categories>
@@ -100,15 +102,19 @@
   <entry>
     <title><![CDATA[航概这一天的起起落落]]></title>
     <url>%2F2019%2F01%2F13%2F%E8%88%AA%E6%A6%82%E8%BF%99%E4%B8%80%E5%A4%A9%E7%9A%84%E8%B5%B7%E8%B5%B7%E8%90%BD%E8%90%BD%2F</url>
-    <content type="text"><![CDATA[考航概了我对于考试向来重视,但是,由于不可名状的原因,我做的准备没有那么充分.反而是,今天的下午,由于一些没有注意,我亲手毁了自己的午睡.所以这件事..总而言之,对政治的复习造成极大影响没有任何关系(本来就没有认真复习过)现在还有1个小时该看看书了woc.]]></content>
+    <content type="text"><![CDATA[考试加情感 考航概了我对于考试向来重视,但是,由于不可名状的原因,我做的准备没有那么充分.反而是,今天的下午,由于一些没有注意,我亲手毁了自己的午睡.所以这件事..总而言之,对政治的复习造成极大影响没有任何关系(本来就没有认真复习过)现在还有1个小时该看看书了woc.]]></content>
+      <categories>
+        <category>DIARY</category>
+      </categories>
       <tags>
         <tag>大一</tag>
+        <tag>期末考试</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[军理考试杀我杀我自己]]></title>
     <url>%2F2019%2F01%2F09%2F%E5%86%9B%E7%90%86%E8%80%83%E8%AF%95%E6%9D%80%E6%88%91%E6%9D%80%E6%88%91%E8%87%AA%E5%B7%B1%2F</url>
-    <content type="text"><![CDATA[军理军事理论哈哈哈哈哈哈哈哈,考前发的资料完全就是卷子原题嘛,只不过考前资料多了很多罢了.我也没有完全背下来,但是巧合的是我拿到的B卷上的题目恰好都是我背过的题目,所以写的十分轻松.希望思修也有这样的题目吧,不然航概和思修两门杀我啊. 然后在考完军理以后美滋滋的把新机械键盘实验了一下.挺贵的.手感很好,就是判定有点迷.敲osu!.mania的时候还是经常miss的.不过幸好我还有Malody这款可以调节offset的音游.打算接下来就是一直在osu!上玩osu,Malody上玩4k.就是这样.顺便记一下排名.pp:1,551 #195,455.]]></content>
+    <content type="text"><![CDATA[大一军理期末 军理军事理论哈哈哈哈哈哈哈哈,考前发的资料完全就是卷子原题嘛,只不过考前资料多了很多罢了.我也没有完全背下来,但是巧合的是我拿到的B卷上的题目恰好都是我背过的题目,所以写的十分轻松.希望思修也有这样的题目吧,不然航概和思修两门杀我啊. 然后在考完军理以后美滋滋的把新机械键盘实验了一下.挺贵的.手感很好,就是判定有点迷.敲osu!.mania的时候还是经常miss的.不过幸好我还有Malody这款可以调节offset的音游.打算接下来就是一直在osu!上玩osu,Malody上玩4k.就是这样.顺便记一下排名.pp:1,551 #195,455.]]></content>
       <categories>
         <category>DIARY</category>
       </categories>
@@ -120,7 +126,7 @@
   <entry>
     <title><![CDATA[考完英语和化学的感想]]></title>
     <url>%2F2019%2F01%2F08%2F%E8%80%83%E5%AE%8C%E8%8B%B1%E8%AF%AD%E5%92%8C%E5%8C%96%E5%AD%A6%E7%9A%84%E6%84%9F%E6%83%B3%2F</url>
-    <content type="text"><![CDATA[第一次大学期末考试考完英语后的我完了AB卷忘涂了听力睡着了阅读读不懂单选连选项都不会会挂科被退学吗肯定会的啊怎么办我还想多体验一下大学生的放荡生活啊放我打游戏去啊啊啊怎么办要完了 分析一下原因就是tmd由于英语课上什么也没有学到啊啊啊啊,好吧是我的词汇量太少了.下学期开始要做到: 每天背百词斩 把大川老师发的书看掉 没有什么别的了好像 做4级真题! 有别的我再加就行 总而言之,英语我就是个菜鸡 考完化学的我我及格稳了&lt;捂脸&gt;.结果化学比较顺利,除了几个比较偏比较难(来不及复习到的)没有打算复习的比如电极极化等少数题目,其他的都可以说是做完了.对错另论.总而言之就是比较开心,导致现在我也特别浪,还在写没有任何软用的博文.唉,得复习一下明天的军理了. 熬夜快乐熬夜,是指在已经适应了的睡觉时间以后睡觉.对我而言就是22:30到23:00这段时间吧.自从上了北航以后,每天睡的是越来越迟,越来越迟啊.我想要充足的睡眠啊啊,希望2019上半年可以好好的睡觉.如果晚上睡不了就提早一点补觉我是觉得睡眠是舒服的,睡着以后什么也不用考虑了真的是很舒服]]></content>
+    <content type="text"><![CDATA[考试考试 第一次大学期末考试考完英语后的我完了AB卷忘涂了听力睡着了阅读读不懂单选连选项都不会会挂科被退学吗肯定会的啊怎么办我还想多体验一下大学生的放荡生活啊放我打游戏去啊啊啊怎么办要完了 分析一下原因就是tmd由于英语课上什么也没有学到啊啊啊啊,好吧是我的词汇量太少了.下学期开始要做到: 每天背百词斩 把大川老师发的书看掉 没有什么别的了好像 做4级真题! 有别的我再加就行 总而言之,英语我就是个菜鸡 考完化学的我我及格稳了&lt;捂脸&gt;.结果化学比较顺利,除了几个比较偏比较难(来不及复习到的)没有打算复习的比如电极极化等少数题目,其他的都可以说是做完了.对错另论.总而言之就是比较开心,导致现在我也特别浪,还在写没有任何软用的博文.唉,得复习一下明天的军理了. 熬夜快乐熬夜,是指在已经适应了的睡觉时间以后睡觉.对我而言就是22:30到23:00这段时间吧.自从上了北航以后,每天睡的是越来越迟,越来越迟啊.我想要充足的睡眠啊啊,希望2019上半年可以好好的睡觉.如果晚上睡不了就提早一点补觉我是觉得睡眠是舒服的,睡着以后什么也不用考虑了真的是很舒服]]></content>
       <categories>
         <category>DIARY</category>
       </categories>
@@ -132,7 +138,7 @@
   <entry>
     <title><![CDATA[cube]]></title>
     <url>%2F2019%2F01%2F08%2Fcube%2F</url>
-    <content type="text"><![CDATA[Rubix Cube对我而言,魔方是无法割舍的一个部分吧 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧.三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
+    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧.三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
       <categories>
         <category>STATISTIC</category>
       </categories>
@@ -143,7 +149,7 @@
   <entry>
     <title><![CDATA[hello-world]]></title>
     <url>%2F2019%2F01%2F08%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[HELLO WORLD第一篇博文,没有想到居然是这样的唉.首先应该提及现在我面临着大学第一次的期末考试,而我还在这儿玩电脑搭建博客.想想还真的是悠闲啊.所以还是赶紧下线吧. 不行 啊我要瞎了感冒好难受啊头疼想睡觉啊…还要考试难受. 那就赶紧陪一下她吧/xyx用QQ表情用多了..应该是斜眼笑即滑稽/ch擦汗习惯md真的舒服啊当然没有latex那么专业罢了.但是总归是外网,访问起来还是有点速度上的差别的.国内搭建在CSDN上吗?不是特别想注册他的用户,因为之前只支持微信注册,然后关闭微信的注册窗口我也是醉了.怎么办?她开始认为我陪她时间短了.我应该多陪陪她还是自己独自休息去.又过了一天,感觉这样下去要出事的啊.现在好了,再次化解一波,还了解到你一些之前完全没有了解到的信息…原来我是这样一个淫荡猥琐下流的人啊…]]></content>
+    <content type="text"><![CDATA[hello world HELLO WORLD第一篇博文,没有想到居然是这样的唉.首先应该提及现在我面临着大学第一次的期末考试,而我还在这儿玩电脑搭建博客.想想还真的是悠闲啊.所以还是赶紧下线吧. 不行 啊我要瞎了感冒好难受啊头疼想睡觉啊…还要考试难受. 那就赶紧陪一下她吧/xyx用QQ表情用多了..应该是斜眼笑即滑稽/ch擦汗习惯md真的舒服啊当然没有latex那么专业罢了.但是总归是外网,访问起来还是有点速度上的差别的.国内搭建在CSDN上吗?不是特别想注册他的用户,因为之前只支持微信注册,然后关闭微信的注册窗口我也是醉了.怎么办?她开始认为我陪她时间短了.我应该多陪陪她还是自己独自休息去.又过了一天,感觉这样下去要出事的啊.现在好了,再次化解一波,还了解到你一些之前完全没有了解到的信息…原来我是这样一个淫荡猥琐下流的人啊…]]></content>
       <categories>
         <category>DIARY</category>
       </categories>
@@ -154,7 +160,7 @@
   <entry>
     <title><![CDATA[testpage]]></title>
     <url>%2F2019%2F01%2F05%2Ftestpage%2F</url>
-    <content type="text"><![CDATA[1 hfdk1.1 互动lawye.script kjhsadkjh 1 2 :smile: 3 in和国际化国际化国际化 UI爱的kjhfkhkjkkk画江湖 带我回答jshfj for my ownlol,lolthis linkanything else is to 试试中文支持如何$\large\pi$ import sympyiuhiuwefhuuuhuehu ueh uue- h ue ehue euheu hue ue uehe u eh ehu eu eu– $$ z=\frac{1}{2}+v\sqrt{3}$$we have mathjax now! A single backtick in a code span: `A backtick-delimited string in a code span: `foo` 12345#include&lt;cstdio&gt;int main()&#123; int a; printf("hello world");&#125; 12345678910import sympy as sx=symbols('x')print(x**2+x,x)if a&gt;b: print aelif a=b: a=belse: breakfor todo1 todo]]></content>
+    <content type="text"><![CDATA[testing 1 hfdk1.1 互动lawye.script kjhsadkjh 1 2 :smile: 3 in和国际化国际化国际化 UI爱的kjhfkhkjkkk画江湖 带我回答jshfj for my ownlol,lolthis linkanything else is to 试试中文支持如何$\large\pi$ import sympyiuhiuwefhuuuhuehu ueh uue- h ue ehue euheu hue ue uehe u eh ehu eu eu– $$ z=\frac{1}{2}+v\sqrt{3}$$we have mathjax now! A single backtick in a code span: `A backtick-delimited string in a code span: `foo` 12345#include&lt;cstdio&gt;int main()&#123; int a; printf("hello world");&#125; 12345678910import sympy as sx=symbols('x')print(x**2+x,x)if a&gt;b: print aelif a=b: a=belse: breakfor todo1 todo]]></content>
       <categories>
         <category>TEST</category>
       </categories>
