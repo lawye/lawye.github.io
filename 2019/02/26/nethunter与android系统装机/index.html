@@ -407,18 +407,20 @@
 
       
         <p align="center">只是安装了一个kali在nexus 5x(350RMB)上</p>
-
 <a id="more"></a>
-<h1 id="装kali-nethunter"><a href="#装kali-nethunter" class="headerlink" title="装kali nethunter"></a>装kali nethunter</h1><h2 id="nexus-5x实体"><a href="#nexus-5x实体" class="headerlink" title="nexus 5x实体"></a>nexus 5x实体</h2><p>很轻巧,做工精细,原生Android系统手感很好,就是Google需要科学上网比较伤.手机内存cpu运行不是很流畅,不能玩大型游戏.不过可以玩Google play下的小游戏.</p>
+<h1>装kali nethunter</h1>
+<h2 id="nexus-5x实体">nexus 5x实体</h2>
+<p>很轻巧,做工精细,原生Android系统手感很好,就是Google需要科学上网比较伤.手机内存cpu运行不是很流畅,不能玩大型游戏.不过可以玩Google play下的小游戏.</p>
 <p>##安装kali nethunter理论流程</p>
 <ol>
 <li>保存ROM包,在电脑上安装adb,fastboot等环境</li>
 <li>在系统里设置USB调试,OEM解锁(类似选项),<strong>退出Google账户</strong></li>
-<li>命令行<ol>
+<li>命令行
+<ol>
 <li>输入<code>adb devices</code>检查设备是否连接</li>
 <li>输入<code>adb reboot bootloader</code>进入手机BIOS模式</li>
 <li>输入<code>fastboot oem unlock</code>或<code>fastboot flashing unlock</code>解锁oem锁,再利用<code>fastboot flash recovery twrp.img</code>重载bootloader,其中twrp.img是TWRP官网上下载的第三方bootloader</li>
-<li>重启进recovery模式<em>(也可以重启再输入<code>adb reboot recovery</code>)</em></li>
+<li>重启进recovery模式*(也可以重启再输入<code>adb reboot recovery</code>)*</li>
 <li>点击<code>advanced</code>选项,<code>adb sideload</code>选项.</li>
 <li>pc端测试连接后,<code>adb sideload nethunter.zip</code>载入nethunter</li>
 </ol>
@@ -426,7 +428,8 @@
 <li>在手机端操作安装完成重启</li>
 <li>结束</li>
 </ol>
-<h2 id="我的第一次装机实战流程"><a href="#我的第一次装机实战流程" class="headerlink" title="我的第一次装机实战流程"></a>我的第一次装机实战流程</h2><ol>
+<h2 id="我的第一次装机实战流程">我的第一次装机实战流程</h2>
+<ol>
 <li>同1</li>
 <li>没有解锁oem,没有退出Google账户</li>
 <li>先谨慎的刷了一遍官网下载的Android系统,使用的是原装bootloader.</li>
@@ -442,7 +445,8 @@
 <li>成功刷入原生系统</li>
 <li>进入系统发现无法跳过网络验证环节</li>
 <li>尝试科学上网,失败</li>
-<li>尝试刷入第三方系统<ol>
+<li>尝试刷入第三方系统
+<ol>
 <li>flyme失败</li>
 <li>MTC失败</li>
 <li>choroma成功</li>
@@ -691,7 +695,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#装kali-nethunter"><span class="nav-number">1.</span> <span class="nav-text">装kali nethunter</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#nexus-5x实体"><span class="nav-number">1.1.</span> <span class="nav-text">nexus 5x实体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#我的第一次装机实战流程"><span class="nav-number">1.2.</span> <span class="nav-text">我的第一次装机实战流程</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">装kali nethunter</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#nexus-5x实体"><span class="nav-number">1.1.</span> <span class="nav-text">nexus 5x实体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#我的第一次装机实战流程"><span class="nav-number">1.2.</span> <span class="nav-text">我的第一次装机实战流程</span></a></li></ol></li></ol></div>
             
 
           </div>
