@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[RandomForest的几个参考文献]]></title>
-    <url>%2F2019%2F03%2F14%2FRandomForest%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%2F</url>
-    <content type="text"><![CDATA[FRB Websites WIKI: Random Forest Rényi entropy Decision tree learning 随机森林原理介绍与适用情况（综述篇） [Machine Learning &amp; Algorithm] 随机森林（Random Forest） Article Keystroke Dynamics Based Authentication Using Possibilistic Renyi Entropy Features and Composite Fuzzy Classifier]]></content>
+    <title><![CDATA[nogoodatall]]></title>
+    <url>%2F2019%2F05%2F23%2FWALL%2F</url>
+    <content type="text"><![CDATA[这是用来记录我所做的不好的事情的 20190518冯如杯的学术科技比赛错过现场答辩 当时就是后悔, 我当时认为时间安排在下午(本组最后一个), 然后早上就在寝室里无所事事XD, 然后在12点左右突然看到11点多一点就轮到我了,, 妈耶,凉凉 最惨的是nikkukun同学, 周日在ACM现场做题ing, 组委会call他没通. 然后他还由于吹考场的空调就感冒了, 过于真实 希望可以拿个奖吧毕竟做了那么多准备]]></content>
+      <categories>
+        <category>EXPREIENCE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[如何在vscode里运行c语言程序--我认为最方便的]]></title>
+    <url>%2F2019%2F03%2F16%2Fvscode%2F</url>
+    <content type="text"><![CDATA[这是一个关于如何在vscode里添加C语言语言支持以及C语言编译运行选项的教程 目前还在思考如何调试 sourceVSCode的官网VSCode in Github上面两个网址就是所谓官网.由于软件是开源的,所以可以免费下载. WARNING注意注意!!!:这个编辑器在上机以及考试的时候是绝对不可能有的,因为机房电脑带不动功能过于强大.利用它你甚至可以写代码??但是确实要考虑啊!!要是平时你就熟悉这款世界第三强大的编辑器,考试时你一定会实名diss机房的dev或者cb的!!!第一是vim(不接受反驳),emacs第二第二第二所以慎重考虑啊啊而且下面也会说到这个编辑器也不是拿到手就可以用,需要一些比较复杂的操作 剧透警告!!你一看肯定会爱上它的警告(我觉得在这里推荐可能真的不太好)(慎重考虑慎重考虑)(幸好这个配置很麻烦) 先放几张图流量警告!!! 这是vscode的几个不同的内置主题(这只是内置).好看吗?至少比dev等好看而且还有其他的拓展主题我没找过,不过应该有个百八十个吧 ##首先安装一下vscode吧..安装完成后在最左侧找到一个方方正正的方块,就是上文那些图中左侧第五个图标(比较大的那个).点击,搜索c/c++,安装下面这两个你以为结束了吗???不存在的. 配置c语言运行环境大家都装devc++了吗??我没装codebock所以不知道它目录下的gcc放在哪里,你要是知道gcc在哪可以回复一下右键devc++的图表打开文件位置,就是找到dev安装在哪里..我安装在D:\Program Files (x86)\Dev-Cpp这里所以打开了这样的界面 在这里点击mingw64,再点击bin,就可以找到一堆exe文件,看起来像这个 复制这个文件夹的路径,(最上面那个文本框里的内容),回到vscode,快捷键ctrl+,(逗号)打开设置,搜索compile,找到C-compiler这个设置,粘贴一下,在最后直接加gcc.这个设置下面那个设置有-Wall等的选项.为了公平公正和谐友谊,我们一定一定一定一定要加-std=C89记得和前面的空一个空格. 感觉上差不多配置好了测试一下呗,F6或者F7可以直接像dev的F11一样操作.如果安装的是CB,也请你在安装路径里找和上文那一堆exe相似的文件夹,最主要的是里面一定要有gcc.exe这个文件!!!然后就把这个路径复制一下就和上文一样了. warning这是一个我在网上没看到过的方法,下午测试的时候发现的.首先由于我的pc上安装有dev,TDM,cLang,minGW-w64,msvc这么多的依赖库,并且我vscode里本身安装配置了别的编译运行c程序的插件,所以有可能在别的电脑上失败.总之这样配置一下最多花一个下午吧还请大家仔细考虑]]></content>
+      <categories>
+        <category>GUIDE</category>
+      </categories>
+      <tags>
+        <tag>code</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo-next之配置]]></title>
+    <url>%2F2019%2F03%2F15%2Fhexo-next%E4%B9%8B%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[HEXO-NEXT配置时可能用到的一些玩意 ##配置主题 配置github角标更改位置在网站位置\themes\next\layout\_layout.swig下&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;标签下一行. 链接一个奇怪的资源比较多的博客 发现在theme/next/source/css下可以全自定义主题.只要懂一点css语法,看懂里面写的就行,甚至可以自己写一个新的主题.]]></content>
       <categories>
         <category>REFERENCE</category>
       </categories>
       <tags>
-        <tag>大一</tag>
+        <tag>Hexo</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[RandomForest的几个参考文献]]></title>
+    <url>%2F2019%2F03%2F14%2FRandomForest%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%2F</url>
+    <content type="text"><![CDATA[FengRuBei Websites Wiki: Random Forest Rényi entropy Decision tree learning 随机森林原理介绍与适用情况（综述篇） [Machine Learning &amp; Algorithm] 随机森林（Random Forest） Wiki:Kullback–Leibler divergence Article Keystroke Dynamics Based Authentication Using Possibilistic Renyi Entropy Features and Composite Fuzzy Classifier]]></content>
+      <categories>
+        <category>REFERENCE</category>
+      </categories>
+      <tags>
         <tag>算法</tag>
         <tag>冯如杯</tag>
       </tags>
@@ -16,14 +46,14 @@
   <entry>
     <title><![CDATA[击键动力学与py画图]]></title>
     <url>%2F2019%2F03%2F09%2F%E5%87%BB%E9%94%AE%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%8Epy%E7%94%BB%E5%9B%BE%2F</url>
-    <content type="text"><![CDATA[FRB 一切都是冯如惹的祸冯如嘛,冯如杯嘛 击键动力学是什么自己看wiki. 不懂就google是一个好习惯,尤其是当校园网可以上google时 python3怎么画图需要引入一个叫matplotlib的库:这个库的用途是画图,就是点线面. 如果画的图比较大,即数据比较多,存放在表格里,我们就需要将其保存为csv文件,并且用pandas的read_csv函数读入这个文件.如f=read_csv(&quot;路径&quot;,engine=&#39;python&#39;) 读入的数据分为两部分,表头和数据,分别可以用f.columns.tolist()和f.values.tolist()转换为列表.后面就是自说自话各显神通了 画线或者点的格式是matplotlib.pyplot.plot(XList,YList,color=&#39;red&#39;,linestyle=&#39;-&#39;,marker=&#39;.&#39;)参数自己换吧. 显示图片是matplotlib.pyplot.show() 这里有一张不在论文里用的图可以看一看]]></content>
+    <content type="text"><![CDATA[FengRuBei 一切都是冯如惹的祸冯如嘛,冯如杯嘛 击键动力学是什么自己看wiki. 不懂就google是一个好习惯,尤其是当校园网可以上google时 python3怎么画图需要引入一个叫matplotlib的库:这个库的用途是画图,就是点线面. 如果画的图比较大,即数据比较多,存放在表格里,我们就需要将其保存为csv文件,并且用pandas的read_csv函数读入这个文件.如f=read_csv(&quot;路径&quot;,engine=&#39;python&#39;) 读入的数据分为两部分,表头和数据,分别可以用f.columns.tolist()和f.values.tolist()转换为列表.后面就是自说自话各显神通了 画线或者点的格式是matplotlib.pyplot.plot(XList,YList,color=&#39;red&#39;,linestyle=&#39;-&#39;,marker=&#39;.&#39;)参数自己换吧. 显示图片是matplotlib.pyplot.show() 这里有一张不在论文里用的图可以看一看]]></content>
       <categories>
         <category>GUIDE</category>
       </categories>
       <tags>
+        <tag>冯如杯</tag>
         <tag>大一</tag>
         <tag>code</tag>
-        <tag>冯如杯</tag>
       </tags>
   </entry>
   <entry>
@@ -138,7 +168,7 @@
   <entry>
     <title><![CDATA[cube]]></title>
     <url>%2F2019%2F01%2F08%2Fcube%2F</url>
-    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧.三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
+    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧. 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧. 20190523 上图是目前的三速成绩这样,还是卡在15左右,唉,心累 四阶吗?夏季赛的及格线在60这样, 我还是基本出60..我觉得很悬 五阶基本没有练 150左右?? pb是116 别的好像没了 买了一堆新魔方, 我觉得今年甚至明年都不需要再买了 现在有WCAID了: 2019YEFA01 :D 是北大春季赛来的 20190315三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
       <categories>
         <category>STATISTIC</category>
       </categories>
