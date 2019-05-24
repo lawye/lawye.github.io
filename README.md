@@ -10,7 +10,13 @@ im from ZheJiang SuiChang, China. Acturally this is my first time to go to BeiJi
 
 ## what's new
 
-### 20190523:
+### 20190524
+
+master brench for source code, while public brench for heml files
+
+trying to deploy by using the hexo.
+
+### 20190523
 
 because of stupid man lawye change the next's souce code in order to add a background pic, the blag went into a mess and i have no time to fix it
 
