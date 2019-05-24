@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="Lawye">
 <meta property="og:description" content="HEXO-NEXT配置时可能用到的一些玩意  配置主题 配置github角标更改位置在网站位置\themes\next\layout\_layout.swig下&amp;lt;div class=&amp;quot;headband&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;标签下一行.  链接一个奇怪的资源比较多的博客 发现在theme/next/source/css下可以全自定义主题.只要懂一点css语法,看">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-24T09:53:29.715Z">
+<meta property="og:updated_time" content="2019-05-24T10:00:06.064Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo与next主题与github代码仓库联合">
 <meta name="twitter:description" content="HEXO-NEXT配置时可能用到的一些玩意  配置主题 配置github角标更改位置在网站位置\themes\next\layout\_layout.swig下&amp;lt;div class=&amp;quot;headband&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;标签下一行.  链接一个奇怪的资源比较多的博客 发现在theme/next/source/css下可以全自定义主题.只要懂一点css语法,看">
@@ -383,7 +383,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-05-24 17:53:29" itemprop="dateModified" datetime="2019-05-24T17:53:29+08:00">2019-05-24</time>
+                <time title="修改时间：2019-05-24 18:00:06" itemprop="dateModified" datetime="2019-05-24T18:00:06+08:00">2019-05-24</time>
               
             
           </span>
@@ -447,7 +447,7 @@
 <p><a href="https://panqiincs.me/2017/08/06/hexo-blog-code-management/" target="_blank" rel="noopener">可能有用的参考文献</a></p>
 <h3 id="已解决"><a href="#已解决" class="headerlink" title="已解决"></a>已解决</h3><p>首先, 我们需要采用githuub上非<code>master</code>分支存储源码, 在<code>master</code>分支上用hexo自带的<code>deploy</code>功能, 即键入<figure class="highlight plain"><figcaption><span>d```以push到远程仓库中.</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">根据hexo的帮助文档, 我们首先需要安装插件`hexo-deployer-git`, 采用```npm install hexo-deployer-git --save```或者```cnpm install hexo-deployer-git --save```命令安装.</span><br><span class="line"></span><br><span class="line">其次, 在根目录(即`hexo init`的文件夹)下的`_config.yml`文件中修改`deploy`属性,形如</span><br><span class="line"></span><br><span class="line">``` yml</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: &lt;repository url&gt;  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io</span><br><span class="line">  branch: [branch] #published</span><br><span class="line">  message: [message]  #leave this blank</span><br></pre></td></tr></table></figure></p>
 <p>这之后就可以直接<code>hexo d</code>来推送啦</p>
-<p>至于原来的源码请使用<code>git</code>或者<code>github desktop</code>上传到github上,如果嫌重复了可以把那两个文件夹ignore掉.</p>
+<p>至于原来的源码请使用<code>git</code>或者<code>github desktop</code>上传到github上,<del>如果嫌重复了可以把那两个文件夹ignore掉.</del> 居然已经自己把它ignore了, hexo牛逼</p>
 
       
     </div>
