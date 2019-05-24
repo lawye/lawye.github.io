@@ -4,7 +4,9 @@ date: 2019-03-15 14:32:01
 tags: [Hexo,next]
 categories: REFERENCE
 ---
-<p align = "center">HEXO-NEXT配置时可能用到的一些玩意</p>
+<p align = "center">HEXO配置时可能用到的一些玩意</p>
+
+<!--more-->
 
 ## 配置主题
 
@@ -45,4 +47,4 @@ deploy:
 
 这之后就可以直接`hexo d`来推送啦
 
-至于原来的源码请使用`git`或者`github desktop`上传到github上,如果嫌重复了可以把那两个文件夹ignore掉.
+至于原来的源码请使用`git`或者`github desktop`上传到github上,~~如果嫌重复了可以把那两个文件夹ignore掉.~~ 居然已经自己把它ignore了, hexo牛逼

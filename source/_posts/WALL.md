@@ -2,7 +2,7 @@
 title: nogoodatall
 date: 2019-05-23 22:34:59
 tags:
-categories: EXPREIENCE
+categories: EXPERIENCE
 ---
 
 这是用来记录我所做的不好的事情的
