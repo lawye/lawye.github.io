@@ -80,4 +80,10 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/lawye/lawye.github.io.git
-  branch: public
+  branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000

@@ -1,38 +1,21 @@
 ---
-title: Hello World
+title: hello-world
+date: 2019-01-08 09:50:31
+tags: inside
+categories: DIARY
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+<p align = "center">hello world</p>
+<!--more-->
+# HELLO WORLD
 
-## Quick Start
+第一篇博文,没有想到居然是这样的唉.首先应该提及现在我面临着大学第一次的期末考试,而我还在这儿~~玩电脑~~搭建博客.想想还真的是悠闲啊.所以还是赶紧下线吧.
 
-### Create a new post
+不行
 
-``` bash
-$ hexo new "My New Post"
-```
+啊我要瞎了感冒好难受啊头疼想睡觉啊...还要考试难受.
 
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+那就赶紧陪一下她吧/xyx用QQ表情用多了..应该是斜眼笑即滑稽/ch擦汗习惯md真的舒服啊当然没有latex那么专业罢了.但是总归是外网,访问起来还是有点速度上的差别的.  
+国内搭建在CSDN上吗?不是特别想注册他的用户,因为之前只支持微信注册,然后关闭微信的注册窗口我也是醉了.  
+怎么办?她开始认为我陪她时间短了.我应该多陪陪她还是自己独自休息去.  
+又过了一天,感觉这样下去要出事的啊.  
+现在好了,再次化解一波,还了解到你一些之前完全没有了解到的信息...原来我是这样一个淫荡猥琐下流的人啊...
