@@ -5,7 +5,7 @@
     <url>%2F2019%2F05%2F23%2FWALL%2F</url>
     <content type="text"><![CDATA[这是用来记录我所做的不好的事情的 20190518冯如杯的学术科技比赛错过现场答辩 当时就是后悔, 我当时认为时间安排在下午(本组最后一个), 然后早上就在寝室里无所事事XD, 然后在12点左右突然看到11点多一点就轮到我了,, 妈耶,凉凉 最惨的是nikkukun同学, 周日在ACM现场做题ing, 组委会call他没通. 然后他还由于吹考场的空调就感冒了, 过于真实 希望可以拿个奖吧毕竟做了那么多准备]]></content>
       <categories>
-        <category>EXPREIENCE</category>
+        <category>EXPERIENCE</category>
       </categories>
   </entry>
   <entry>
@@ -22,7 +22,7 @@
   <entry>
     <title><![CDATA[hexo与next主题与github代码仓库联合]]></title>
     <url>%2F2019%2F03%2F15%2Fhexo-next%E4%B9%8B%E9%85%8D%E7%BD%AE%2F</url>
-    <content type="text"><![CDATA[HEXO-NEXT配置时可能用到的一些玩意 配置主题 配置github角标更改位置在网站位置\themes\next\layout\_layout.swig下&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;标签下一行. 链接一个奇怪的资源比较多的博客 发现在theme/next/source/css下可以全自定义主题.只要懂一点css语法,看懂里面写的就行,甚至可以自己写一个新的主题. 有关hexo源码管理实际上的lawye.github.io仓库master分支储存的是本地public文件夹下的内容 需要做的是将除了public的其余内容用另一个分支或者仓库存储 可能有用的参考文献 已解决首先, 我们需要采用githuub上非master分支存储源码, 在master分支上用hexo自带的deploy功能, 即键入d```以push到远程仓库中.1234567891011根据hexo的帮助文档, 我们首先需要安装插件`hexo-deployer-git`, 采用```npm install hexo-deployer-git --save```或者```cnpm install hexo-deployer-git --save```命令安装.其次, 在根目录(即`hexo init`的文件夹)下的`_config.yml`文件中修改`deploy`属性,形如``` ymldeploy: type: git repo: &lt;repository url&gt; #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io branch: [branch] #published message: [message] #leave this blank 这之后就可以直接hexo d来推送啦 至于原来的源码请使用git或者github desktop上传到github上,如果嫌重复了可以把那两个文件夹ignore掉. 居然已经自己把它ignore了, hexo牛逼]]></content>
+    <content type="text"><![CDATA[HEXO配置时可能用到的一些玩意 配置主题 配置github角标更改位置在网站位置\themes\next\layout\_layout.swig下&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;标签下一行. 链接一个奇怪的资源比较多的博客 发现在theme/next/source/css下可以全自定义主题.只要懂一点css语法,看懂里面写的就行,甚至可以自己写一个新的主题. 有关hexo源码管理实际上的lawye.github.io仓库master分支储存的是本地public文件夹下的内容 需要做的是将除了public的其余内容用另一个分支或者仓库存储 可能有用的参考文献 已解决首先, 我们需要采用githuub上非master分支存储源码, 在master分支上用hexo自带的deploy功能, 即键入d```以push到远程仓库中.1234567891011根据hexo的帮助文档, 我们首先需要安装插件`hexo-deployer-git`, 采用```npm install hexo-deployer-git --save```或者```cnpm install hexo-deployer-git --save```命令安装.其次, 在根目录(即`hexo init`的文件夹)下的`_config.yml`文件中修改`deploy`属性,形如``` ymldeploy: type: git repo: &lt;repository url&gt; #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io branch: [branch] #published message: [message] #leave this blank 这之后就可以直接hexo d来推送啦 至于原来的源码请使用git或者github desktop上传到github上,如果嫌重复了可以把那两个文件夹ignore掉. 居然已经自己把它ignore了, hexo牛逼]]></content>
       <categories>
         <category>REFERENCE</category>
       </categories>
@@ -51,8 +51,8 @@
         <category>GUIDE</category>
       </categories>
       <tags>
-        <tag>大一</tag>
         <tag>冯如杯</tag>
+        <tag>大一</tag>
         <tag>code</tag>
       </tags>
   </entry>
