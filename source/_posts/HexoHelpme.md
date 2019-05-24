@@ -31,9 +31,27 @@ categories: REFERENCE
 
 ### 已解决
 
-首先, 我们需要采用githuub上非`master`分支存储源码, 在`master`分支上用hexo自带的`deploy`功能, 即键入```hexo d```以push到远程仓库中.
+首先, 我们需要采用githuub上非`master`分支存储源码, 在`master`分支上用hexo自带的`deploy`功能, 即键入
 
-根据hexo的帮助文档, 我们首先需要安装插件`hexo-deployer-git`, 采用```npm install hexo-deployer-git --save```或者```cnpm install hexo-deployer-git --save```命令安装.
+```cmd
+hexo d
+```
+
+以push到远程仓库中.
+
+根据hexo的帮助文档, 我们首先需要安装插件`hexo-deployer-git`, 采用
+
+```cmd
+npm install hexo-deployer-git --save
+```
+
+或者
+
+```cmd
+cnpm install hexo-deployer-git --save
+```
+
+命令安装.
 
 其次, 在根目录(即`hexo init`的文件夹)下的`_config.yml`文件中修改`deploy`属性,形如
 

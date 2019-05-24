@@ -1,12 +1,13 @@
 ---
-title: 击键动力学与py画图
+title: python画图功能matplotlib
 date: 2019-03-09 10:23:42
 tags: [大一,code,冯如杯]
 categories: GUIDE
 ---
 <p align = "center">FengRuBei</p>
 <!--more-->
-# 一切都是冯如惹的祸
+
+## 一切都是冯如惹的祸
 
 冯如嘛,冯如杯嘛
 
