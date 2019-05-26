@@ -1,6 +1,5 @@
 ---
-title: cube
-date: 2019-01-08 10:14:19
+title: 魔方
 tags: CUBE
 categories: STATISTIC
 ---
@@ -38,4 +37,3 @@ categories: STATISTIC
 成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,~~放弃也是快乐的~~没有可能放弃的,这辈子都不可能的.  
 4阶我还在60开外.不过感觉最近可以进60.  
 5阶在2:20左右.这个还是比较尴尬的,
-
