@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[osu!]]></title>
+    <url>%2F2019%2F05%2F26%2Fosu%2F</url>
+    <content type="text"><![CDATA[Click the Circles]]></content>
+      <categories>
+        <category>STATISTIC</category>
+      </categories>
+      <tags>
+        <tag>RHYTHM GAME</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[魔方]]></title>
+    <url>%2F2019%2F05%2F24%2Fcube%2F</url>
+    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧. 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧. 20190523 上图是目前的三速成绩这样,还是卡在15左右,唉,心累 四阶吗?夏季赛的及格线在60这样, 我还是基本出60..我觉得很悬 五阶基本没有练 150左右?? pb是116 别的好像没了 买了一堆新魔方, 我觉得今年甚至明年都不需要再买了 现在有WCAID了: 2019YEFA01 :D 是北大春季赛来的 20190315三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
+      <categories>
+        <category>STATISTIC</category>
+      </categories>
+      <tags>
+        <tag>CUBE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[nogoodatall]]></title>
     <url>%2F2019%2F05%2F23%2FWALL%2F</url>
     <content type="text"><![CDATA[这是用来记录我所做的不好的事情的 20190518冯如杯的学术科技比赛错过现场答辩 当时就是后悔, 我当时认为时间安排在下午(本组最后一个), 然后早上就在寝室里无所事事XD, 然后在12点左右突然看到11点多一点就轮到我了,, 妈耶,凉凉 最惨的是nikkukun同学, 周日在ACM现场做题ing, 组委会call他没通. 然后他还由于吹考场的空调就感冒了, 过于真实 希望可以拿个奖吧毕竟做了那么多准备]]></content>
@@ -21,8 +43,8 @@
   </entry>
   <entry>
     <title><![CDATA[hexo与next主题与github代码仓库联合]]></title>
-    <url>%2F2019%2F03%2F15%2Fhexo-next%E4%B9%8B%E9%85%8D%E7%BD%AE%2F</url>
-    <content type="text"><![CDATA[HEXO配置时可能用到的一些玩意 配置主题 配置github角标更改位置在网站位置\themes\next\layout\_layout.swig下&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;标签下一行. 链接一个奇怪的资源比较多的博客 发现在theme/next/source/css下可以全自定义主题.只要懂一点css语法,看懂里面写的就行,甚至可以自己写一个新的主题. 有关hexo源码管理实际上的lawye.github.io仓库master分支储存的是本地public文件夹下的内容 需要做的是将除了public的其余内容用另一个分支或者仓库存储 可能有用的参考文献 已解决首先, 我们需要采用githuub上非master分支存储源码, 在master分支上用hexo自带的deploy功能, 即键入d```以push到远程仓库中.1234567891011根据hexo的帮助文档, 我们首先需要安装插件`hexo-deployer-git`, 采用```npm install hexo-deployer-git --save```或者```cnpm install hexo-deployer-git --save```命令安装.其次, 在根目录(即`hexo init`的文件夹)下的`_config.yml`文件中修改`deploy`属性,形如``` ymldeploy: type: git repo: &lt;repository url&gt; #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io branch: [branch] #published message: [message] #leave this blank 这之后就可以直接hexo d来推送啦 至于原来的源码请使用git或者github desktop上传到github上,如果嫌重复了可以把那两个文件夹ignore掉. 居然已经自己把它ignore了, hexo牛逼]]></content>
+    <url>%2F2019%2F03%2F15%2FHexoHelpme%2F</url>
+    <content type="text"><![CDATA[HEXO配置时可能用到的一些玩意 配置主题 配置github角标更改位置在网站位置\themes\next\layout\_layout.swig下&lt;div class=&quot;headband&quot;&gt;&lt;/div&gt;标签下一行. 链接一个奇怪的资源比较多的博客 发现在theme/next/source/css下可以全自定义主题.只要懂一点css语法,看懂里面写的就行,甚至可以自己写一个新的主题. 有关hexo源码管理实际上的lawye.github.io仓库master分支储存的是本地public文件夹下的内容 需要做的是将除了public的其余内容用另一个分支或者仓库存储 可能有用的参考文献 已解决首先, 我们需要采用githuub上非master分支存储源码, 在master分支上用hexo自带的deploy功能, 即键入 1hexo d 以push到远程仓库中. 根据hexo的帮助文档, 我们首先需要安装插件hexo-deployer-git, 采用 1npm install hexo-deployer-git --save 或者 1cnpm install hexo-deployer-git --save 命令安装. 其次, 在根目录(即hexo init的文件夹)下的_config.yml文件中修改deploy属性,形如 12345deploy: type: git repo: &lt;repository url&gt; #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io branch: [branch] #published message: [message] #leave this blank 这之后就可以直接hexo d来推送啦 至于原来的源码请使用git或者github desktop上传到github上,如果嫌重复了可以把那两个文件夹ignore掉. 居然已经自己把它ignore了, hexo牛逼]]></content>
       <categories>
         <category>REFERENCE</category>
       </categories>
@@ -33,7 +55,7 @@
   </entry>
   <entry>
     <title><![CDATA[RandomForest的几个参考文献]]></title>
-    <url>%2F2019%2F03%2F14%2FRandomForest%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%2F</url>
+    <url>%2F2019%2F03%2F14%2FRandomForestREF%2F</url>
     <content type="text"><![CDATA[FengRuBei Websites Wiki: Random Forest Rényi entropy Decision tree learning 随机森林原理介绍与适用情况（综述篇） [Machine Learning &amp; Algorithm] 随机森林（Random Forest） Wiki:Kullback–Leibler divergence Article Keystroke Dynamics Based Authentication Using Possibilistic Renyi Entropy Features and Composite Fuzzy Classifier]]></content>
       <categories>
         <category>REFERENCE</category>
@@ -44,21 +66,21 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[击键动力学与py画图]]></title>
-    <url>%2F2019%2F03%2F09%2F%E5%87%BB%E9%94%AE%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%8Epy%E7%94%BB%E5%9B%BE%2F</url>
+    <title><![CDATA[python画图功能matplotlib]]></title>
+    <url>%2F2019%2F03%2F09%2Fmatplotlib%2F</url>
     <content type="text"><![CDATA[FengRuBei 一切都是冯如惹的祸冯如嘛,冯如杯嘛 击键动力学是什么自己看wiki. 不懂就google是一个好习惯,尤其是当校园网可以上google时 python3怎么画图需要引入一个叫matplotlib的库:这个库的用途是画图,就是点线面. 如果画的图比较大,即数据比较多,存放在表格里,我们就需要将其保存为csv文件,并且用pandas的read_csv函数读入这个文件.如f=read_csv(&quot;路径&quot;,engine=&#39;python&#39;) 读入的数据分为两部分,表头和数据,分别可以用f.columns.tolist()和f.values.tolist()转换为列表.后面就是自说自话各显神通了 画线或者点的格式是matplotlib.pyplot.plot(XList,YList,color=&#39;red&#39;,linestyle=&#39;-&#39;,marker=&#39;.&#39;)参数自己换吧. 显示图片是matplotlib.pyplot.show() 这里有一张不在论文里用的图可以看一看]]></content>
       <categories>
         <category>GUIDE</category>
       </categories>
       <tags>
-        <tag>冯如杯</tag>
         <tag>大一</tag>
+        <tag>冯如杯</tag>
         <tag>code</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[nethunter与android系统装机]]></title>
-    <url>%2F2019%2F02%2F26%2Fnethunter%E4%B8%8Eandroid%E7%B3%BB%E7%BB%9F%E8%A3%85%E6%9C%BA%2F</url>
+    <url>%2F2019%2F02%2F26%2FKaliNethunter%2F</url>
     <content type="text"><![CDATA[只是安装了一个kali在nexus 5x(350RMB)上 装kali nethunternexus 5x实体很轻巧,做工精细,原生Android系统手感很好,就是Google需要科学上网比较伤.手机内存cpu运行不是很流畅,不能玩大型游戏.不过可以玩Google play下的小游戏. ##安装kali nethunter理论流程 保存ROM包,在电脑上安装adb,fastboot等环境 在系统里设置USB调试,OEM解锁(类似选项),退出Google账户 命令行 输入adb devices检查设备是否连接 输入adb reboot bootloader进入手机BIOS模式 输入fastboot oem unlock或fastboot flashing unlock解锁oem锁,再利用fastboot flash recovery twrp.img重载bootloader,其中twrp.img是TWRP官网上下载的第三方bootloader 重启进recovery模式(也可以重启再输入adb reboot recovery) 点击advanced选项,adb sideload选项. pc端测试连接后,adb sideload nethunter.zip载入nethunter 在手机端操作安装完成重启 结束 我的第一次装机实战流程 同1 没有解锁oem,没有退出Google账户 先谨慎的刷了一遍官网下载的Android系统,使用的是原装bootloader. 没有问题就解锁oem锁,刷入twrp 在twrp下完成kali nethunter的安装 开机后发现安装选项选错,没有达到我预期的效果 打算重装系统重新来一遍 由于twrp安装后系统开机显示警告,于是就把oem锁上了 oem已锁的情况下无法进行data分区解密 尝试进入系统,发现卡在开机界面 重启重新进recovery,重新刷原生系统发现sideload无效. 尝试用push方法将ROM包发送至sdcard,在twrp中卡刷 成功刷入原生系统 进入系统发现无法跳过网络验证环节 尝试科学上网,失败 尝试刷入第三方系统 flyme失败 MTC失败 choroma成功 进入系统开启oem锁 重新用官方factory版本刷机刷回出厂 重新安装twrp和kali nethunter 结束 过程十分曲折,消耗了我大量精力和时间(耗时三天).结果也并不令人十分高兴(安装了一个app叫kali nethunter)并且现阶段我对这个app没有需求. 但是不是没有收获.我知道了Android系统是基于Linux系统的变种也知道了除内核外Android的运行方式. 下一次我希望可以在自己的手机上删除不想要的功能.]]></content>
       <categories>
         <category>GUIDE</category>
@@ -82,7 +104,7 @@
   </entry>
   <entry>
     <title><![CDATA[流浪地球观影]]></title>
-    <url>%2F2019%2F02%2F10%2F%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83%E8%A7%82%E5%BD%B1%2F</url>
+    <url>%2F2019%2F02%2F10%2FWonderingEarth%2F</url>
     <content type="text"><![CDATA[吹爆中国科幻 流浪地球中国第一部硬科幻电影首先,应该祝福第一部这个坎总算是跨过去了.虽然电影中硬伤很多,台词人物和剧情都有待磨砺,但是总体给我的感受就是不错,至少新年在这里看到一部这样的电影确实比较舒服. 好的地方 设定好,精神内核好 如果没有带上地球,那么这部片子也不能叫流浪地球.最主要的设定就在于人类考虑把地球带上一同去比邻星.根据豆瓣上相关评论,我也赞同这是中国故土情怀的体现.他吸引我的点也在这里. 人物好 户口这个人虽然是常见的叛逆孩子角色,想出去的想法也不成熟,但是最后可以所谓奉献自己生命还是让人感觉]]></content>
       <categories>
         <category>MOVIE</category>
@@ -94,7 +116,7 @@
   </entry>
   <entry>
     <title><![CDATA[我的原罪]]></title>
-    <url>%2F2019%2F02%2F04%2F%E6%88%91%E7%9A%84%E5%8E%9F%E7%BD%AA%2F</url>
+    <url>%2F2019%2F02%2F04%2Fpastofpassion%2F</url>
     <content type="text"><![CDATA[感情上的第一次?挫折 记我的内向又不成熟这不是借口,而是烦恼昨天是一个导火索.事情经过大致是: A,目前现在是我的异性朋友. 我的家庭是封建保守的家庭,A的家庭是潮流前卫的家庭.本来家庭之间的差异不会引起这样的后果的. A带我去剪了一个比较前卫的头发.但是按我家的说法叫做社会. 在我家也引起了小风波.此时我犯了在这次事情中的错误[1]:告诉我的家人这个头发是A带我剪的.错因在后面. 过了两天,A独自去医院看胃病.我想去陪她,呵呵,我的懦弱让我不敢开口说出去去医院.寻找了一个A的远方亲戚B,然而B并不在本地.除此之外A在本地的好友便只有我一个.我想去陪她以及把她送回家(然而事实上似乎A并不需要)(应该说是她希望我去陪她但是不去也无妨).这里我连续犯了三个错误: 没有在网络上关心她.[2] 在她说感觉我总是帮不了她时没有和她商量我接下来要做的事[3] 将这件事告诉了家长并且是说她叫我去陪陪她喷血[4] A的成绩不好而我的成绩还行.我家长又十分看中成绩.所以应该是对A形成偏见以为A在引诱我. 没有接到A,我家长就说去A家里转转.哈,当时我以为只是单纯的去转转(楼主傻逼).就去了..[5] 在A家里.我爸看似在说我的教育经历,实际上应该是说所谓的没家教.我当时以为在说我就没有在意.可是我们走了以后A家里爆发了一场异常尖锐的战斗.关注点在于A的学习以及丢人以及爱好(喷血).当时我不明白啊,就直接问了发生什么了.结果就来了一场直播.语言之尖锐难以想象.我很难受.这件事情是由于我而起的. 原因分析 我的懦弱.无法解释自己的头发是是怎么来的.当时是我爸把我带到理发店门口但是我又悄悄离开,和A一起去了另一家.应该是两个人的事情却说成了一个人的事情.不过这个头发如此社会我是剪完才知道的(本人深度近视). 在网络上不知道应该怎么关心.不知道说什么所以什么也没说.无法传递自己的心情 这里我比较伤心.因为这件事情已经在我们之间造成了很大的分歧.我希望可以帮助到周围的人但是总是要么无力要么起到反作用.这是我自己的一个弱点吧. 告诉家长是想让家长去带她回家,省的走路(怕她吃不消).然而最后A是打车回家的. 没有什么原因了,单纯的没有想到. 求助 如何弥补A的家里发生这样的事(时间还是年二九).不仅伤了A的心,还伤了A的家人的心. 关于楼主的性格(懦弱内向),以及一贯处事态度,求助有没有可以改变的方法. 楼主应该如何对待朋友对待周围的人才不会让他们受伤. 今后应该如何交朋友 改经过与友人的交流与学习,我进一步了解到了这件事的结果与之前所发生的一系列事件的根本原因. 首先应该归罪于家庭结构.我与我的父母之间情感沟通少.我原以为这是不需要的但是现在看来我错了.情感是一个人安身立命之本,没有情感的人是不存在的.如果在平时和父母做好情感上的沟通就会使这次的事件变为我独自解决.这样我就多了些许自由. 其次是我一向的做事风格不喜欢和人商量.做事无组织无纪律可还行.不过集体荣誉感感觉还行. 差不多就这样吧. the game is on.]]></content>
       <categories>
         <category>DIARY</category>
@@ -105,21 +127,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[美赛第三天的转折]]></title>
-    <url>%2F2019%2F01%2F27%2F%E7%BE%8E%E8%B5%9B%E7%AC%AC%E4%B8%89%E5%A4%A9%E7%9A%84%E8%BD%AC%E6%8A%98%2F</url>
-    <content type="text"><![CDATA[就是美赛吧 #美赛第三天的转折 ##有关美赛赛程 由于Python的解整数规划函数会略过条件,所以abandon了原来写好的Python代码(基于pulp),转而使用MATLAB.幸好nikkukun同学的编程效率高,我们得以在中午之前搞好.nikkukun同学又开始写第二部分算法即装箱问题的算法,参考了一个文献.我负责的内容是bibtex和latex的写作以及排版.偶尔跑一会数据.所以电脑占用率比较高.然后就宕机了.]]></content>
-      <categories>
-        <category>DIARY</category>
-      </categories>
-      <tags>
-        <tag>大一</tag>
-        <tag>MCM/ACM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[美赛第一天是1月25日#57]]></title>
-    <url>%2F2019%2F01%2F25%2F%E7%BE%8E%E8%B5%9B%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%98%AF1%E6%9C%8825%E6%97%A5-57%2F</url>
-    <content type="text"><![CDATA[就是美赛吧 美赛有关美赛的部分需要等美赛结束后才可以公布 现在是无所谓了. 美赛就是爆肝爆肝爆肝.第一天对这个题目完全没有想法.以为这是一个元胞自动机似的题目 ANATA今天是57天..11月30号到现在的日子.]]></content>
+    <url>%2F2019%2F01%2F25%2F2019COMAP%2F</url>
+    <content type="text"><![CDATA[就是美赛吧 美赛有关美赛的部分需要等美赛结束后才可以公布 现在是无所谓了. 美赛就是爆肝爆肝爆肝.第一天对这个题目完全没有想法.以为这是一个元胞自动机似的题目 ANATA今天是第57天..11月30号到现在的日子. 美赛第三天的转折有关美赛赛程由于Python的解整数规划函数会略过条件,所以abandon了原来写好的Python代码(基于pulp),转而使用MATLAB.幸好nikkukun同学的编程效率高,我们得以在中午之前搞好.nikkukun同学又开始写第二部分算法即装箱问题的算法,参考了一个文献.我负责的内容是bibtex和latex的写作以及排版.偶尔跑一会数据.所以电脑占用率比较高.然后就宕机了.]]></content>
       <categories>
         <category>DIARY</category>
       </categories>
@@ -127,17 +137,6 @@
         <tag>大一</tag>
         <tag>inside</tag>
         <tag>MCM/ACM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[cube]]></title>
-    <url>%2F2019%2F01%2F08%2Fcube%2F</url>
-    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧. 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧. 20190523 上图是目前的三速成绩这样,还是卡在15左右,唉,心累 四阶吗?夏季赛的及格线在60这样, 我还是基本出60..我觉得很悬 五阶基本没有练 150左右?? pb是116 别的好像没了 买了一堆新魔方, 我觉得今年甚至明年都不需要再买了 现在有WCAID了: 2019YEFA01 :D 是北大春季赛来的 20190315三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
-      <categories>
-        <category>STATISTIC</category>
-      </categories>
-      <tags>
-        <tag>CUBE</tag>
       </tags>
   </entry>
   <entry>
