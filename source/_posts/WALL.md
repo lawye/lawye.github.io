@@ -1,8 +1,8 @@
 ---
 title: nogoodatall
 date: 2019-05-23 22:34:59
-tags:
-categories: EXPERIENCE
+tags: inside
+categories: DIARY
 ---
 
 这是用来记录我所做的不好的事情的
