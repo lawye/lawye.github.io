@@ -5,8 +5,10 @@ tags: inside
 categories: DIARY
 ---
 <p align = "center">hello world</p>
+
 <!--more-->
-# HELLO WORLD
+
+## HELLO WORLD
 
 第一篇博文,没有想到居然是这样的唉.首先应该提及现在我面临着大学第一次的期末考试,而我还在这儿~~玩电脑~~搭建博客.想想还真的是悠闲啊.所以还是赶紧下线吧.
 

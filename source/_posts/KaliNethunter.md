@@ -7,27 +7,28 @@ categories: GUIDE
 <p align = "center">只是安装了一个kali在nexus 5x(350RMB)上</p>
 
 <!--more-->
-# 装kali nethunter
 
-## nexus 5x实体
+## 在手机上安装kali nethunter
+
+### nexus 5x实体
 
 很轻巧,做工精细,原生Android系统手感很好,就是Google需要科学上网比较伤.手机内存cpu运行不是很流畅,不能玩大型游戏.不过可以玩Google play下的小游戏.
 
-##安装kali nethunter理论流程
+### 安装kali nethunter理论流程
 
 1. 保存ROM包,在电脑上安装adb,fastboot等环境
 2. 在系统里设置USB调试,OEM解锁(类似选项),**退出Google账户**
 3. 命令行
-	1. 输入```adb devices```检查设备是否连接
-	2. 输入```adb reboot bootloader```进入手机BIOS模式
-	3. 输入```fastboot oem unlock```或```fastboot flashing unlock```解锁oem锁,再利用```fastboot flash recovery twrp.img```重载bootloader,其中twrp.img是TWRP官网上下载的第三方bootloader
-	4. 重启进recovery模式*(也可以重启再输入```adb reboot recovery```)*
-	5. 点击```advanced```选项,```adb sideload```选项.
-	6. pc端测试连接后,```adb sideload nethunter.zip```载入nethunter
+	1. 输入`adb devices`检查设备是否连接
+	2. 输入`adb reboot bootloader`进入手机BIOS模式
+	3. 输入`fastboot oem unlock`或`fastboot flashing unlock`解锁oem锁,再利用`fastboot flash recovery twrp.img`重载bootloader,其中twrp.img是TWRP官网上下载的第三方bootloader
+	4. 重启进recovery模式*(也可以重启再输入`adb reboot recovery`)*
+	5. 点击`advanced`选项,`adb sideload`选项.
+	6. pc端测试连接后,`adb sideload nethunter.zip`载入nethunter
 4. 在手机端操作安装完成重启
 5. 结束
 
-## 我的第一次装机实战流程
+### 我的第一次装机实战流程
 
 1. 同1
 2. 没有解锁oem,没有退出Google账户
@@ -58,3 +59,7 @@ categories: GUIDE
 但是不是没有收获.我知道了Android系统是基于Linux系统的变种也知道了除内核外Android的运行方式.
 
 下一次我希望可以在自己的手机上删除不想要的功能.
+
+## 准备在自己的HUAWEI nova 2 plus 上刷入google play的recovery包
+
+这是一个预告@20190527
