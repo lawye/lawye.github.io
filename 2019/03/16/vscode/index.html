@@ -114,7 +114,7 @@
 <meta property="og:image" content="http://lawye.github.io/2019/03/16/vscode/ccr.png">
 <meta property="og:image" content="http://lawye.github.io/2019/03/16/vscode/dev.png">
 <meta property="og:image" content="http://lawye.github.io/2019/03/16/vscode/yiduiexe.png">
-<meta property="og:updated_time" content="2019-05-24T15:31:22.186Z">
+<meta property="og:updated_time" content="2019-05-27T11:29:31.687Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何在vscode里运行c语言程序--我认为最方便的">
 <meta name="twitter:description" content="这是一个关于如何在vscode里添加C语言语言支持以及C语言编译运行选项的教程 目前还在思考如何调试">
@@ -434,7 +434,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-05-24 23:31:22" itemprop="dateModified" datetime="2019-05-24T23:31:22+08:00">2019-05-24</time>
+                <time title="修改时间：2019-05-27 19:29:31" itemprop="dateModified" datetime="2019-05-27T19:29:31+08:00">2019-05-27</time>
               
             
           </span>
@@ -493,14 +493,15 @@
 <h2 id="WARNING"><a href="#WARNING" class="headerlink" title="WARNING"></a>WARNING</h2><p><strong>注意注意!!!:这个编辑器在上机以及考试的时候是绝对不可能有的,因为<del>机房电脑带不动</del>功能过于强大.利用它你甚至可以写代码??</strong><br><strong>但是确实要考虑啊!!要是平时你就熟悉这款世界第三强大的编辑器,考试时你一定会实名diss机房的dev或者cb的!!!</strong><br><del>第一是vim(不接受反驳),emacs第二第二第二</del><br><strong>所以慎重考虑啊啊</strong><br><strong>而且下面也会说到这个编辑器也不是拿到手就可以用,需要一些比较复杂的操作</strong></p>
 <hr>
 <p><del>剧透警告!!</del><strong>你一看肯定会爱上它的警告</strong>(我觉得在这里推荐可能真的不太好)(慎重考虑慎重考虑)(幸好这个配置很<strong>麻烦</strong>)</p>
-<h2 id="先放几张图"><a href="#先放几张图" class="headerlink" title="先放几张图"></a>先放几张图</h2><p>流量警告!!!<br><img src="bai.png" alt="image"><br><img src="lan.png" alt="image"><br><img src="hong.png" alt="image"><br><img src="shifengbai.png" alt="image"><br><img src="white.png" alt="image"><br><img src="wode.png" alt="image"></p>
-<p>这是vscode的几个不同的内置主题(这只是内置).好看吗?<del>至少比dev等好看</del>而且还有其他的拓展主题<del>我没找过,不过应该有个百八十个吧</del></p>
-<p>##首先安装一下vscode吧..<br>安装完成后在最左侧找到一个方方正正的方块,就是上文那些图中左侧第五个图标(比较大的那个).点击,搜索<code>c/c++</code>,安装下面这两个<br><img src="c.png" alt="image"><br><img src="ccr.png" alt="image"><br>你以为结束了吗???不存在的.</p>
-<h2 id="配置c语言运行环境"><a href="#配置c语言运行环境" class="headerlink" title="配置c语言运行环境"></a>配置c语言运行环境</h2><p>大家都装devc++了吗??<del>我没装codebock所以不知道它目录下的gcc放在哪里,你要是知道gcc在哪可以回复一下</del><br>右键devc++的图表打开文件位置,就是找到dev安装在哪里..我安装在<code>D:\Program Files (x86)\Dev-Cpp</code>这里所以打开了这样的界面<br><img src="dev.png" alt="image"></p>
-<p>在这里点击mingw64,再点击bin,就可以找到一堆exe文件,看起来像这个<br><img src="yiduiexe.png" alt="image"></p>
-<p>复制这个文件夹的路径,(最上面那个文本框里的内容),<br>回到vscode,快捷键<code>ctrl+,(逗号)</code>打开设置,搜索<code>compile</code>,找到<code>C-compiler</code>这个设置,粘贴一下,在最后直接加<code>gcc</code>.<br>这个设置下面那个设置有<code>-Wall</code>等的选项.为了公平公正和谐友谊,我们一定一定一定一定要加<code>-std=C89</code>记得和前面的空一个空格.</p>
-<h2 id="感觉上差不多配置好了"><a href="#感觉上差不多配置好了" class="headerlink" title="感觉上差不多配置好了"></a>感觉上差不多配置好了</h2><p>测试一下呗,<code>F6</code>或者<code>F7</code>可以直接像dev的<code>F11</code>一样操作.<br>如果安装的是CB,也请你在安装路径里找和上文那一堆exe相似的文件夹,最主要的是里面一定要有<code>gcc.exe</code>这个文件!!!然后就把这个路径复制一下就和上文一样了.</p>
-<h2 id="warning"><a href="#warning" class="headerlink" title="warning"></a>warning</h2><p>这是一个我在网上没看到过的方法,下午测试的时候发现的.首先由于我的pc上安装有dev,TDM,cLang,minGW-w64,msvc这么多的依赖库,并且我vscode里本身安装配置了别的编译运行c程序的插件,所以有可能在别的电脑上失败.<del>总之这样配置一下最多花一个下午吧</del>还请大家仔细考虑</p>
+<h2 id="久-等-了"><a href="#久-等-了" class="headerlink" title="久 等 了"></a>久 等 了</h2><h3 id="先放几张图"><a href="#先放几张图" class="headerlink" title="先放几张图"></a>先放几张图</h3><p>流量警告!!!<br><img src="bai.png" alt="image"><br><img src="lan.png" alt="image"><br><img src="hong.png" alt="image"><br><img src="shifengbai.png" alt="image"><br><img src="white.png" alt="image"><br><img src="wode.png" alt="image"></p>
+<p>这是vscode的几个不同的内置主题(这只是内置).好看吗?<del>至少比dev等好看</del>而且还有其他的拓展主题<del>我没找到太多,只看到6*5个</del></p>
+<h3 id="首先安装一下vscode吧"><a href="#首先安装一下vscode吧" class="headerlink" title="首先安装一下vscode吧"></a>首先安装一下vscode吧</h3><p>安装完成后在最左侧找到一个方方正正的方块,就是上文那些图中左侧第五个图标(比较大的那个).点击,搜索<code>c/c++</code>,安装下面这两个<br><img src="c.png" alt="image"><br><img src="ccr.png" alt="image"><br>你以为结束了吗???不存在的.</p>
+<h3 id="配置c语言运行环境"><a href="#配置c语言运行环境" class="headerlink" title="配置c语言运行环境"></a>配置c语言运行环境</h3><p>大家都装<code>DEV-c++</code>了吗??<del>我没装<code>codebock</code>所以不知道它目录下的gcc放在哪里,你要是知道<code>gcc.exe</code>在哪可以回复一下</del><br>右键<code>DEV-c++</code>的桌面图标打开文件位置,或者找到<code>dev</code>安装在哪里.</p>
+<p>我安装在<code>D:\Program Files (x86)\Dev-Cpp</code>这里所以打开了这样的界面<br><img src="dev.png" alt="image"></p>
+<p>在这里进入<code>mingw64</code>文件夹,再进入<code>bin</code>文件夹,就可以找到一堆exe文件,看起来像这个<br><img src="yiduiexe.png" alt="image"></p>
+<p>复制这个文件夹的路径,(最上面那个文本框里的内容),<br>回到<code>vscode</code>,快捷键<code>ctrl+,(逗号)</code>打开设置,搜索<code>compile</code>,找到<code>C-compiler</code>这个设置,粘贴一下刚刚的地址,在最后直接加<code>gcc</code>.<br>这个设置下面那个设置有<code>-Wall</code>等的选项.为了公平公正和谐友谊,我们一定一定一定一定要加<code>-std=C89</code>. 记得和前面的空一个空格.</p>
+<h3 id="感觉上差不多配置好了"><a href="#感觉上差不多配置好了" class="headerlink" title="感觉上差不多配置好了"></a>感觉上差不多配置好了</h3><p>测试一下呗,<code>F6</code>或者<code>F7</code>可以直接像dev的<code>F11</code>一样操作.<br>如果安装的是CB,也请你在安装路径里找和上文那一堆exe相似的文件夹,最主要的是里面一定要有<code>gcc.exe</code>这个文件!!!然后就把这个路径复制一下就和上文一样了.</p>
+<h2 id="WARNING-AGAIN"><a href="#WARNING-AGAIN" class="headerlink" title="WARNING AGAIN"></a>WARNING AGAIN</h2><p>这是一个我在网上没看到过的方法,下午测试的时候发现的.首先由于我的pc上安装有<code>dev</code>,<code>TDM</code>,<code>cLang</code>,<code>minGW-w64</code>,<code>msvc</code>这么多的依赖库,并且我的<code>vscode</code>里本身安装配置了别的编译运行c程序的插件,所以有可能在我的电脑上可以运行只是假象, 在别的电脑上失败.<del>总之这样配置一下最多花一个下午吧</del> <strong>还请大家仔细考虑</strong></p>
 
       
     </div>
@@ -647,9 +648,7 @@
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -771,7 +770,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#source"><span class="nav-number">1.</span> <span class="nav-text">source</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#WARNING"><span class="nav-number">2.</span> <span class="nav-text">WARNING</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#先放几张图"><span class="nav-number">3.</span> <span class="nav-text">先放几张图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置c语言运行环境"><span class="nav-number">4.</span> <span class="nav-text">配置c语言运行环境</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#感觉上差不多配置好了"><span class="nav-number">5.</span> <span class="nav-text">感觉上差不多配置好了</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#warning"><span class="nav-number">6.</span> <span class="nav-text">warning</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#source"><span class="nav-number">1.</span> <span class="nav-text">source</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#WARNING"><span class="nav-number">2.</span> <span class="nav-text">WARNING</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#久-等-了"><span class="nav-number">3.</span> <span class="nav-text">久 等 了</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#先放几张图"><span class="nav-number">3.1.</span> <span class="nav-text">先放几张图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#首先安装一下vscode吧"><span class="nav-number">3.2.</span> <span class="nav-text">首先安装一下vscode吧</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置c语言运行环境"><span class="nav-number">3.3.</span> <span class="nav-text">配置c语言运行环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#感觉上差不多配置好了"><span class="nav-number">3.4.</span> <span class="nav-text">感觉上差不多配置好了</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#WARNING-AGAIN"><span class="nav-number">4.</span> <span class="nav-text">WARNING AGAIN</span></a></li></ol></div>
             
 
           </div>
