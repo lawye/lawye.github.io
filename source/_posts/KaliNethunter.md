@@ -63,3 +63,15 @@ categories: GUIDE
 ## 准备在自己的HUAWEI nova 2 plus 上刷入google play的recovery包
 
 这是一个预告@20190527
+
+### 在20190529晚上的尝试
+
+HUAWEI手机对刷机行为的抵制简直令人发指.
+
+其一: recovery模式被弱化为只能双清, 这样我还要这个干吗啊
+
+其二: 锁住了OEM, 即无法通过刷入第三方bootloader如TWRP来刷入第三方的recovery
+
+其三: 不能root(这是下策中的下策)(root会降低手机的安全性)
+
+综上, **暂时我不想吃这个屁了**
