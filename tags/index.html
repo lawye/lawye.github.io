@@ -260,23 +260,6 @@
     <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-schedule">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>日程表</a>
-
-  </li>
 
       
       
@@ -295,9 +278,6 @@
     
 
     
-    
-      
-      
     
       
       
@@ -429,6 +409,8 @@
                 
               
                 
+              
+                
                   
                 
               
@@ -460,7 +442,7 @@
             </div>
             <div class="tag-cloud-tags">
               
-                <a href="/tags/Android/" style="font-size: 12px; color: #ccc">Android</a> <a href="/tags/CUBE/" style="font-size: 12px; color: #ccc">CUBE</a> <a href="/tags/Hexo/" style="font-size: 12px; color: #ccc">Hexo</a> <a href="/tags/MCM-ACM/" style="font-size: 12px; color: #ccc">MCM/ACM</a> <a href="/tags/RHYTHM-GAME/" style="font-size: 12px; color: #ccc">RHYTHM GAME</a> <a href="/tags/code/" style="font-size: 18px; color: #8e8e8e">code</a> <a href="/tags/inside/" style="font-size: 24px; color: #4f4f4f">inside</a> <a href="/tags/next/" style="font-size: 12px; color: #ccc">next</a> <a href="/tags/test/" style="font-size: 12px; color: #ccc">test</a> <a href="/tags/冯如杯/" style="font-size: 18px; color: #8e8e8e">冯如杯</a> <a href="/tags/大一/" style="font-size: 30px; color: #111">大一</a> <a href="/tags/电影/" style="font-size: 12px; color: #ccc">电影</a> <a href="/tags/科幻/" style="font-size: 12px; color: #ccc">科幻</a> <a href="/tags/算法/" style="font-size: 12px; color: #ccc">算法</a> <a href="/tags/考试/" style="font-size: 12px; color: #ccc">考试</a>
+                <a href="/tags/Android/" style="font-size: 12px; color: #ccc">Android</a> <a href="/tags/Hexo/" style="font-size: 12px; color: #ccc">Hexo</a> <a href="/tags/MCM-ACM/" style="font-size: 12px; color: #ccc">MCM/ACM</a> <a href="/tags/RHYTHM-GAME/" style="font-size: 12px; color: #ccc">RHYTHM GAME</a> <a href="/tags/code/" style="font-size: 18px; color: #8e8e8e">code</a> <a href="/tags/cube/" style="font-size: 18px; color: #8e8e8e">cube</a> <a href="/tags/inside/" style="font-size: 24px; color: #4f4f4f">inside</a> <a href="/tags/next/" style="font-size: 12px; color: #ccc">next</a> <a href="/tags/test/" style="font-size: 12px; color: #ccc">test</a> <a href="/tags/冯如杯/" style="font-size: 18px; color: #8e8e8e">冯如杯</a> <a href="/tags/大一/" style="font-size: 30px; color: #111">大一</a> <a href="/tags/电影/" style="font-size: 12px; color: #ccc">电影</a> <a href="/tags/科幻/" style="font-size: 12px; color: #ccc">科幻</a> <a href="/tags/算法/" style="font-size: 12px; color: #ccc">算法</a> <a href="/tags/考试/" style="font-size: 12px; color: #ccc">考试</a>
               
             </div>
           </div>
@@ -482,6 +464,10 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -521,7 +507,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">14</span>
+                    <span class="site-state-item-count">15</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -566,6 +552,8 @@
                     
                   
                     
+                    
+                      
                     
                       
                     
@@ -814,6 +802,36 @@
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'VgUa3Ck4n17mG2TY9lbUyeuG-gzGzoHsz',
+    appKey: 'iBMrsroE1OndUdiEyOXyPRTF',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: 'zh-cn' || 'zh-cn'
+  });
+</script>
+
+
 
 
   
