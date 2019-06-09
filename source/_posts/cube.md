@@ -1,6 +1,6 @@
 ---
 title: 魔方
-tags: CUBE
+tags: cube
 categories: STATISTIC
 ---
 <p align = "center">魔方与我</p>

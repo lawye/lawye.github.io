@@ -25,4 +25,6 @@ categories: MOVIE
 
 ### 不好的地方
 
-首先是大刘个人行为[esu](https://esu.wiki/刘慈欣)
+首先是大刘个人行为[esu](https://esu.wiki/刘慈欣), 具体就不涉及了
+
+其次是
