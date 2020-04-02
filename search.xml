@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[ubuntu desktop of gnome 3使用]]></title>
+    <url>%2F2020%2F04%2F02%2Fubuntu%20desktop%20of%20gnome%203%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Ubuntu1910使用体验]]></title>
+    <url>%2F2020%2F03%2F21%2FUbuntu1910%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%2F</url>
+    <content type="text"><![CDATA[Ubuntu 19.10 使用体验林林总总也用了快半年ubuntu了. 缘由第一次接触u是因为尝试安装系统. 在学会了windows的装机以后, 我想是不是也可以安装linux呢, 然后就在试验机上安装了win和u的双系统(话说这还是高三那个暑假的事). 大学以后, 我有了自己的笔记本, 就想安装双系统. 一开始使用的是18.04, 然鹅那时候对于nvidia显卡的支持非常不好, 于是就一直在用windows. 等到19.04的时候, 据传ubuntu修复了对nvidia的支持, 于是就更新系统(apt)到1904. 但是这是一个短期支持的系统, 不是非常稳定, 而且有许多软件都missing-appendix, 所以比较麻烦. 这之后我主要在做多媒体的编辑(大二上), 所以还是win下面比较多. 直到19.10, 我发觉windows实在是太容易崩溃了, 所以就打算在ubuntu下做平常的一些事, 比如大作业之类的. 我用dist安装了1910, 真香, 我立马喜欢上了这个系统. 尤其是tx良心出品的qq for linux(2019.10.24), 虽然在1910下基本上无法使用(崩溃). 现在我基本上都在用ubuntu了 软件比较好的一些软件, 我打算升上20.04以后重新安装一次系统, 所以到时候需要用到这些. 电源管理 tlp &amp;&amp; tlp-rdw这个属实不错, 续航时间最长可以达到7h, 前提是不开nvidia. 而且不需要什么操作(我也不太会). gnome插件gnome-tweak 前置 dash to dock 感觉像mac的启动器 prime indicator 快速切换nvidia gtile 快速控制窗口大小 user theme 自定义主题 topicon plus 作者已弃坑, 不过我听说是因为ubuntu官方在开发相关插件才弃的. 游戏minecraft multimc 比较稳定, 适合vanilla HMCL 比较适合forge和vanilla minecraft launcher 官方 osuosu!lazer, 新一代的osu客户端(未上线), 需要.net3.1的环境. 科学上网electron-ssr clash v2ray的客户端 虚拟机VirtualBox 音乐网易云音乐for linux unblockneteasemusic mpg123 VLC 录屏simplescreenrecorder winedeepin wine for ubuntu 可以使用deepin的容器 浏览器chrome chromium 输入法fcitx下的sougou输入法 词典//翻译sdcv 命令行下的词典 计算器bc ipython ubuntu 20.04 lts说实在我想装20.04的主要原因就在于他是lts… 装机好烦的说…..]]></content>
+      <categories>
+        <category>GUIDE</category>
+      </categories>
+      <tags>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[2019北京夏季赛]]></title>
     <url>%2F2019%2F06%2F09%2FBeiJingSummer2019%2F</url>
     <content type="text"><![CDATA[我的第二次wca比赛这是我第二次参加wca比赛, 也是我第一次在wca留下2345阶和单手和斜转平均成绩. 这次比赛对我的意义即在于此, 但是我对自己在赛事中的表现发挥并不满意. 赛场位置, 交通以及饮食赛场在大红门, 和我姨婆的位置很近, 和沙河很远, 早上7:35的摆渡车出发, 一般9.30左右到达赛场. 关于伙食嘛, 附近有一家KFC 果然魔友们就是要一起开开心心的吃KFC啊 赛场大事记(我自己的比赛当然很重要啦,哼)恭喜牙签大佬再次~刷新校R~刷NR6进入X群话说那天风云突起, 牙签大佬稳坐场中, 一手拍一个17.73, 只见虎甲微微摇头, 心想又得心疼的看牙签一次次的联系法百次成绩, 但是内心的情感阻止了他转身离开, 于是便看到牙签大佬第二把一波OLLCP,扭转乾坤, 一拍一个12.20. 我在候赛区看成绩, 除了第一把17, 后面全都是12.0几, 当场一算, 好了, 破R了, 冠军了, ~这居然不请一波客?~ 某垃圾的比赛练习最多的四阶速拧赛前四阶练习量达到接近500把yau, 还练习了将近100把的hoya法, 总时长绝对比三速的时间长. 但是最后也只是avgsub60而已, 并没有想要的全sub60 avg59.70 最好52.49||55.88 52.49 1:07.18 :04.54 58.69 再来说说斜转我的斜转是完全没有练习量的控心法, 不过如果情况比较好是可以avg7这样子, 不过这次比赛拿到手的是四把邻心换… :bad 一点也不好啊,我四心换公式做不进三秒啊… avg11.11 最好7.98||10.43 10.91 11.99 7.98 15.84 我的辣鸡五阶没练习, 没成绩 avg2:11.27 最好2:02.80||2:12.62 2:07.47 2:02.80 2:13.73 2:21.70 比五阶还垃圾的三阶什么叫做赛前吹,赛后哭.. 完全没有发挥自己的状态, 或者说赛前一周就不应该练习斜转六阶, 还不如练习三阶来的实惠 赛场上也千万别练习三单, 赛后一天手痛死了!!! avg17.37 最好14.68||17.44 16.64 20.47 14.68 18.03 二阶avg8.35 最好6.12||6.12 10.13 7.70 7.23 15.06 最垃圾的三单三阶单手最费手, 赛后手疼 avg33.94 最好30.35||33.35 34.17 30.35 44.05 34.29]]></content>
@@ -14,31 +30,9 @@
   <entry>
     <title><![CDATA[15puzzle]]></title>
     <url>%2F2019%2F05%2F30%2F15puzzle%2F</url>
-    <content type="text"><![CDATA[关于15puzzle]]></content>
+    <content type="text"><![CDATA[关于15puzzle最近练得不多, 主要是没有办法练, 所以成绩也就20s(4x4)这样. 倒是试着练习了一下扫雷之类的,,,嘛,,嘛.]]></content>
       <categories>
         <category>GUIDE</category>
-      </categories>
-      <tags>
-        <tag>cube</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[osu!]]></title>
-    <url>%2F2019%2F05%2F26%2Fosu%2F</url>
-    <content type="text"><![CDATA[Click the Circles 20190527]]></content>
-      <categories>
-        <category>STATISTIC</category>
-      </categories>
-      <tags>
-        <tag>RHYTHM GAME</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[魔方]]></title>
-    <url>%2F2019%2F05%2F24%2Fcube%2F</url>
-    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧. WCAid: 2019YEFA01 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧. 20190527四阶基本进60, 一般可以在55s上下波动(上5下15),总之还不是特别稳定5阶也有进入120过, 不过练习量达不到要求, 不是特别稳. 20190523 上图是目前的三速成绩这样,还是卡在15左右,唉,心累 四阶吗?夏季赛的及格线在60这样, 我还是基本出60..我觉得很悬 五阶基本没有练 150左右?? pb是116 别的好像没了 买了一堆新魔方, 我觉得今年甚至明年都不需要再买了 现在有WCAID了: 2019YEFA01 :D 是北大春季赛来的 20190315三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
-      <categories>
-        <category>STATISTIC</category>
       </categories>
       <tags>
         <tag>cube</tag>
@@ -184,6 +178,28 @@
       </categories>
       <tags>
         <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[魔方]]></title>
+    <url>%2F1970%2F01%2F01%2Fcube%2F</url>
+    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧. WCAid: 2019YEFA01 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧. 20190527四阶基本进60, 一般可以在55s上下波动(上5下15),总之还不是特别稳定5阶也有进入120过, 不过练习量达不到要求, 不是特别稳. 20190523 上图是目前的三速成绩这样,还是卡在15左右,唉,心累 四阶吗?夏季赛的及格线在60这样, 我还是基本出60..我觉得很悬 五阶基本没有练 150左右?? pb是116 别的好像没了 买了一堆新魔方, 我觉得今年甚至明年都不需要再买了 现在有WCAID了: 2019YEFA01 :D 是北大春季赛来的 20190315三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
+      <categories>
+        <category>STATISTIC</category>
+      </categories>
+      <tags>
+        <tag>cube</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[osu!]]></title>
+    <url>%2F1970%2F01%2F01%2Fosu%2F</url>
+    <content type="text"><![CDATA[Click the Circles 20190527]]></content>
+      <categories>
+        <category>STATISTIC</category>
+      </categories>
+      <tags>
+        <tag>RHYTHM GAME</tag>
       </tags>
   </entry>
 </search>
