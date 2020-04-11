@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Gleipnir]]></title>
+    <url>%2F2020%2F04%2F04%2FGleipnir%2F</url>
+    <content type="text"><![CDATA[格莱普尼尔漫画这是一部有关一个小镇里几个好朋友之间由于误会发生的”惨案”, (就目前来看是这样的) 时间线整理很久以前: 外星人飞船坠落小镇, 某外星人(唯一在外的驾驶员)来到小镇看漫画. 他的同伴以硬币形式存在于世. 但是这个外星人没有很大的欲望去找他们. 补习班: 爱子, 海斗, 直人, 江丽奈,穗香, 修一一起参加的暑假补习班, 时间不详, 现女主红爱没有参加这次补习班(第一次出现是在穗香被海斗杀死以后) 悲剧的起因: 爱子自杀 故事的开端: 穗香碰到了外星人, 想帮助外星人找同伴, 并提出了找到硬币就为人们实现愿望的构想. 为此, 外星人把穗香当做了朋友并且实现了她的想要变成爱子的愿望. 故事的转折: 海斗杀死了变成爱子的穗香, 然后被告知爱子是自杀的事实, 从而陷入自责, 去找外星人复活穗香. 复活后的穗香变成了可能毁灭世界的存在. 记忆的消失: 由于某种原因, 江丽奈将红爱和修一的记忆消除. 重新开始: 修一遇见红爱, 两人合二为一(字面意思) 人物修一: 所有人都评价他温柔, 包括海斗, 现在应该是中学三年级(不知道是高中还是初中) 红爱: 江丽奈的妹妹, 不知道为何没有参加理应是姐妹一起参加的暑假补习班. 然后理应是在补习班上认得其他人的海斗认识红爱, 并称其为恶魔. 江丽奈: 能力是头发变长(误), 感觉像是贞子. 修一前女友. 直人: 修一哥哥, 能力是变身成玩偶, 和男主很像, 不过玩偶原型是补习班里的一个玩偶. 海斗称他为修一的替代. 海斗: 带恶人 几个疑点的思考Q: 修一怎么获得变成玩偶的能力的?A: 江丽奈找到了硬币, 将这个愿望给修一用了, 理由是吉岗联系江丽奈时, 江丽奈手里拿着和修一变身以及那个将愿望用在别人身上的人的挂饰很像的挂饰. Q: 江丽奈为什么要消除记忆?A: 在消除记忆以前, 修一可以变成玩偶以后, 修一曾抓着红爱要杀死她, 此时江丽奈也出现了. 推测是红爱”帮助”海斗收集齐100枚硬币, 帮助其复活穗香. 未完.]]></content>
+      <categories>
+        <category>MANGA</category>
+      </categories>
+      <tags>
+        <tag>manga</tag>
+        <tag>推测</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[ubuntu desktop of gnome 3使用]]></title>
     <url>%2F2020%2F04%2F02%2Fubuntu%20desktop%20of%20gnome%203%E4%BD%BF%E7%94%A8%2F</url>
     <content type="text"></content>
@@ -8,7 +20,7 @@
   <entry>
     <title><![CDATA[Ubuntu1910使用体验]]></title>
     <url>%2F2020%2F03%2F21%2FUbuntu1910%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C%2F</url>
-    <content type="text"><![CDATA[Ubuntu 19.10 使用体验林林总总也用了快半年ubuntu了. 缘由第一次接触u是因为尝试安装系统. 在学会了windows的装机以后, 我想是不是也可以安装linux呢, 然后就在试验机上安装了win和u的双系统(话说这还是高三那个暑假的事). 大学以后, 我有了自己的笔记本, 就想安装双系统. 一开始使用的是18.04, 然鹅那时候对于nvidia显卡的支持非常不好, 于是就一直在用windows. 等到19.04的时候, 据传ubuntu修复了对nvidia的支持, 于是就更新系统(apt)到1904. 但是这是一个短期支持的系统, 不是非常稳定, 而且有许多软件都missing-appendix, 所以比较麻烦. 这之后我主要在做多媒体的编辑(大二上), 所以还是win下面比较多. 直到19.10, 我发觉windows实在是太容易崩溃了, 所以就打算在ubuntu下做平常的一些事, 比如大作业之类的. 我用dist安装了1910, 真香, 我立马喜欢上了这个系统. 尤其是tx良心出品的qq for linux(2019.10.24), 虽然在1910下基本上无法使用(崩溃). 现在我基本上都在用ubuntu了 软件比较好的一些软件, 我打算升上20.04以后重新安装一次系统, 所以到时候需要用到这些. 电源管理 tlp &amp;&amp; tlp-rdw这个属实不错, 续航时间最长可以达到7h, 前提是不开nvidia. 而且不需要什么操作(我也不太会). gnome插件gnome-tweak 前置 dash to dock 感觉像mac的启动器 prime indicator 快速切换nvidia gtile 快速控制窗口大小 user theme 自定义主题 topicon plus 作者已弃坑, 不过我听说是因为ubuntu官方在开发相关插件才弃的. 游戏minecraft multimc 比较稳定, 适合vanilla HMCL 比较适合forge和vanilla minecraft launcher 官方 osuosu!lazer, 新一代的osu客户端(未上线), 需要.net3.1的环境. 科学上网electron-ssr clash v2ray的客户端 虚拟机VirtualBox 音乐网易云音乐for linux unblockneteasemusic mpg123 VLC 录屏simplescreenrecorder winedeepin wine for ubuntu 可以使用deepin的容器 浏览器chrome chromium 输入法fcitx下的sougou输入法 词典//翻译sdcv 命令行下的词典 计算器bc ipython ubuntu 20.04 lts说实在我想装20.04的主要原因就在于他是lts… 装机好烦的说…..]]></content>
+    <content type="text"><![CDATA[Ubuntu 19.10 使用体验林林总总也用了快半年ubuntu了. 缘由第一次接触u是因为尝试安装系统. 在学会了windows的装机以后, 我想是不是也可以安装linux呢, 然后就在试验机上安装了win和u的双系统(话说这还是高三那个暑假的事). 大学以后, 我有了自己的笔记本, 就想安装双系统. 一开始使用的是18.04, 然鹅那时候对于nvidia显卡的支持非常不好, 于是就一直在用windows. 等到19.04的时候, 据传ubuntu修复了对nvidia的支持, 于是就更新系统(apt)到1904. 但是这是一个短期支持的系统, 不是非常稳定, 而且有许多软件都missing-appendix, 所以比较麻烦. 这之后我主要在做多媒体的编辑(大二上), 所以还是win下面比较多. 直到19.10, 我发觉windows实在是太容易崩溃了, 所以就打算在ubuntu下做平常的一些事, 比如大作业之类的. 我用dist安装了1910, 真香, 我立马喜欢上了这个系统. 尤其是tx良心出品的qq for linux(2019.10.24), 虽然在1910下基本上无法使用(崩溃). 现在我基本上都在用ubuntu了 软件比较好的一些软件, 我打算升上20.04以后重新安装一次系统, 所以到时候需要用到这些. 电源管理 tlp &amp;&amp; tlp-rdw这个属实不错, 续航时间最长可以达到7h, 前提是不开nvidia. 而且不需要什么操作(我也不太会). gnome插件gnome-tweak 前置 dash to dock 感觉像mac的启动器 prime indicator 快速切换nvidia gtile 快速控制窗口大小 user theme 自定义主题 topicon plus 作者已弃坑, 不过我听说是因为ubuntu官方在开发相关插件才弃的. 游戏minecraft multimc 比较稳定, 适合vanilla HMCL 比较适合forge和vanilla minecraft launcher 官方 osuosu!lazer, 新一代的osu客户端(未上线), 需要.net3.1的环境. 科学上网electron-ssr clash v2ray的客户端 虚拟机VirtualBox 音乐网易云音乐for linux unblockneteasemusic mpg123 VLC 录屏simplescreenrecorder winedeepin wine for ubuntu 可以使用deepin的容器 浏览器chrome chromium 输入法fcitx下的sougou输入法 词典//翻译sdcv 命令行下的词典 计算器bc ipython ubuntu 20.04 lts说实在我想装20.04的主要原因就在于他是lts… 装机好烦的说….. QQlinuxQQ在2020.4.9发布了beta2版, 比之前的稳定多了.]]></content>
       <categories>
         <category>GUIDE</category>
       </categories>
