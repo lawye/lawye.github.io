@@ -218,7 +218,7 @@
   <entry>
     <title><![CDATA[osu!]]></title>
     <url>%2F1970%2F01%2F01%2Fosu%2F</url>
-    <content type="text"><![CDATA[Click the Circles 20190527]]></content>
+    <content type="text"><![CDATA[Click the Circlesosulazer1dotnet build -c Release -o ~/osulazer 20190527]]></content>
       <categories>
         <category>STATISTIC</category>
       </categories>
