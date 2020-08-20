@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[KUbuntu2004]]></title>
+    <url>%2F2020%2F08%2F20%2FKUbuntu2004%2F</url>
+    <content type="text"><![CDATA[KUbuntu 20.04 使用体验实际上我原先使用的是Ubuntu with gnome，然后在一些问题的困扰下切换到了kde桌面。后面由于一些问题kde崩了，我就想着重新安装系统好了，就直接安装的KUbuntu。 软件安装首先是minecraft。我直接拷贝的原系统里的.minecraft文件夹。 其次是各种开发软件。我在新系统上就安装了vi，vscode，idea（java），typora（morkdown），sublimed text3（用来看文档）。 然后是一些游戏。osu!lazer，steam。 多媒体软件：2D使用的是WIMP，3D使用的是Blender和BlockBench（MC），视频剪辑暂时还没安装，没有需求。 下载软件：Ktorrent和aria2。之前配置aria2的时候吃了很多亏，现在补全了。 聊天工具：telegram，QQ-linux 翻墙：Clashr（linux版），自动生成配置文件使用了clashr for windows 软件使用代理采用了proxychains而不是系统自动代理，因为这个的pac模式有点奇怪，所以干脆直接全走代理。 文件共享：oneDrive，Resilio sync（未配置好）（权限问题） 桌面：todolist 输入法：fcitx rime加小鹤音形配置（位置是~/.config/fcitx/rime/） 文件目录配置原先我是在固态上划了约60g，机械上划了两个分区，一个挂在/home上，另一个挂在/home/mega上，主要原因是无法扩展分区，所以就这么将就着用了。现在就将两个分区合并，固态上还是/，机械上的两个分区都作为/home。 windows下的E盘我通过修改/etc/fstab，挂载在了/home/lawye/winfile上。 其他的小设置]]></content>
+      <categories>
+        <category>GUIDE</category>
+      </categories>
+      <tags>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[ubuntu 20.04使用]]></title>
     <url>%2F2020%2F05%2F13%2F04%2F</url>
     <content type="text"><![CDATA[刚刚使用20.04lts半个月左右. 首先是桌面的更换, 由于某种原因(似乎是输入法), 我从gnome换成了KDE桌面. 事实上KDE的使用体验更接近Windows, 所以就一直在用plasma. 输入法的配置花了我大量时间. 首先搜狗输入法在20.04下暂不可用, 所以我搜了一下, 选了叫做rime的输入法. 为什么会选择这个呢? 首先我是小鹤双拼方案的使用者, 所以ibus不能用. 然后fcitx下面支持自定义输入方案的似乎就只有这一款了. 在ubuntu下他叫做 中州韵, 在centos下叫做鼠须管. 总而言之我使用apt安装了fcitx-rime. 但是在kde下fcitx支持比gnome下好, 在gnome下有些程序中无法输入中文的问题解决了. ssr的使用在kde下不是非常舒适. 在gnome下我用的electron-ssr可以自动修改系统设置, 使得切换全局, pac不需要打开系统设置界面. 然而plasma下不行. kde有叫做kde-connect的工具方便电脑连接android手机. 我在之前已经用resilio sync做了局域网文件分享, 所以这个插件就不是那么有用. 字体问题也困扰着我. 在系统登录界面以及vscode以及网易云音乐的下拉菜单中的字体为宋体, 而不是我设置的更纱黑体. 令人烦躁. 不过kde下使用组合建 (ctrl+)alt+space可以调出程序启动菜单, 不同于gnome下的alt+f2, 不过功能更全面, 比我之前配置的(数据删除)要好用多了.]]></content>
@@ -205,17 +216,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[魔方]]></title>
-    <url>%2F1970%2F01%2F01%2Fcube%2F</url>
-    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧. WCAid: 2019YEFA01 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧. 20190527四阶基本进60, 一般可以在55s上下波动(上5下15),总之还不是特别稳定5阶也有进入120过, 不过练习量达不到要求, 不是特别稳. 20190523 上图是目前的三速成绩这样,还是卡在15左右,唉,心累 四阶吗?夏季赛的及格线在60这样, 我还是基本出60..我觉得很悬 五阶基本没有练 150左右?? pb是116 别的好像没了 买了一堆新魔方, 我觉得今年甚至明年都不需要再买了 现在有WCAID了: 2019YEFA01 :D 是北大春季赛来的 20190315三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
-      <categories>
-        <category>STATISTIC</category>
-      </categories>
-      <tags>
-        <tag>cube</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[osu!]]></title>
     <url>%2F1970%2F01%2F01%2Fosu%2F</url>
     <content type="text"><![CDATA[Click the Circlesosulazer1dotnet build -c Release -o ~/osulazer 20190527]]></content>
@@ -224,6 +224,17 @@
       </categories>
       <tags>
         <tag>RHYTHM GAME</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[魔方]]></title>
+    <url>%2F1970%2F01%2F01%2Fcube%2F</url>
+    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧. WCAid: 2019YEFA01 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧. 20190527四阶基本进60, 一般可以在55s上下波动(上5下15),总之还不是特别稳定5阶也有进入120过, 不过练习量达不到要求, 不是特别稳. 20190523 上图是目前的三速成绩这样,还是卡在15左右,唉,心累 四阶吗?夏季赛的及格线在60这样, 我还是基本出60..我觉得很悬 五阶基本没有练 150左右?? pb是116 别的好像没了 买了一堆新魔方, 我觉得今年甚至明年都不需要再买了 现在有WCAID了: 2019YEFA01 :D 是北大春季赛来的 20190315三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
+      <categories>
+        <category>STATISTIC</category>
+      </categories>
+      <tags>
+        <tag>cube</tag>
       </tags>
   </entry>
 </search>
