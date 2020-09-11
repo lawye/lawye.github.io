@@ -28,7 +28,7 @@ categories: GUIDE
 
 文件共享：oneDrive，Resilio sync（未配置好）（权限问题）
 
-桌面：todolist
+桌面：todolist(非常方便，原因是可以自由添加，而且可以显示tab）)
 
 输入法：fcitx rime加小鹤音形配置（位置是`~/.config/fcitx/rime/`）
 
