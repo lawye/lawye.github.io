@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[北航minecraft服游玩]]></title>
+    <url>%2F2020%2F09%2F11%2Fbuaa-mc%2F</url>
+    <content type="text"><![CDATA[自我进北航服务器玩也有快一年了。 有意思的事刚进服务器的时候，miki带我去逛了一圈服务器。那时实际上我才刚玩mc不到一个月，很多东西都不懂，唯一知道的就只有游戏的基本玩法。 后面在服里摸鱼，直到服务器由于区块问题崩了。 在此之后我主要玩mod服，和朋友组了两次，也掌握了一定的开服技巧。 这段时间里我开始接触生电领域，然后就喜欢上了这个有意思的地方。 在服务器未开的时候，由于1.16下界更新有意思，所以群里还是有许多人想玩。苦于没有服务器，我用自己的服务器开了一次快照服。没有插件也没有mod，就是纯原版。后面ext接手了这个服务器，我航也开始了生电的研究。 快照服主要分为两个生存基地，其中出生点一个，4k处有一个。4k处又称为4k村。 主要设施有：出生点非常宏伟的圆石墙（yws建造，饱受16诟病），树场，刷石机，铁机，交易所（半废），史莱姆农场。 4k村有：村民交易所，自动打袭击的假村，苦力怕塔，大农场，熔炉，甘蔗机。 末地有小黑塔，下界有烤猪肉塔。 这个服伴随着快照的更新，从20w07a一直到20w18a。后面又因为没有服务器的原因停了。 1.16正式服由于一些原因服务器重启了地图，种子也换了，变成了新的存档。 经过约两个月（后面又关了），再次分成了两个基地，其中miki和btd（大威天龙）在较远的地方，其他人在图书馆这边（沙河，误）。群友摸了很多建筑也咕了很多机器。比如杰哥的刷石机，t3的全物品。不过比上个服好的地方在于，这个服的科技线推的比较长，目前已经有海货塔，烤猪肉塔，金子塔（僵尸猪灵），刷铁机，南瓜机（既生产绿宝石又生产骨粉，小黑塔（纯经验）。目前在摸的有炸怪塔和凋零骷髅头塔。]]></content>
+      <categories>
+        <category>GAME</category>
+      </categories>
+      <tags>
+        <tag>minecraft</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[KUbuntu2004]]></title>
     <url>%2F2020%2F08%2F20%2FKUbuntu2004%2F</url>
-    <content type="text"><![CDATA[KUbuntu 20.04 使用体验实际上我原先使用的是Ubuntu with gnome，然后在一些问题的困扰下切换到了kde桌面。后面由于一些问题kde崩了，我就想着重新安装系统好了，就直接安装的KUbuntu。 软件安装首先是minecraft。我直接拷贝的原系统里的.minecraft文件夹。 其次是各种开发软件。我在新系统上就安装了vi，vscode，idea（java），typora（morkdown），sublimed text3（用来看文档）。 然后是一些游戏。osu!lazer，steam。 多媒体软件：2D使用的是WIMP，3D使用的是Blender和BlockBench（MC），视频剪辑暂时还没安装，没有需求。 下载软件：Ktorrent和aria2。之前配置aria2的时候吃了很多亏，现在补全了。 聊天工具：telegram，QQ-linux 翻墙：Clashr（linux版），自动生成配置文件使用了clashr for windows 软件使用代理采用了proxychains而不是系统自动代理，因为这个的pac模式有点奇怪，所以干脆直接全走代理。 文件共享：oneDrive，Resilio sync（未配置好）（权限问题） 桌面：todolist 输入法：fcitx rime加小鹤音形配置（位置是~/.config/fcitx/rime/） 文件目录配置原先我是在固态上划了约60g，机械上划了两个分区，一个挂在/home上，另一个挂在/home/mega上，主要原因是无法扩展分区，所以就这么将就着用了。现在就将两个分区合并，固态上还是/，机械上的两个分区都作为/home。 windows下的E盘我通过修改/etc/fstab，挂载在了/home/lawye/winfile上。 其他的小设置]]></content>
+    <content type="text"><![CDATA[KUbuntu 20.04 使用体验实际上我原先使用的是Ubuntu with gnome，然后在一些问题的困扰下切换到了kde桌面。后面由于一些问题kde崩了，我就想着重新安装系统好了，就直接安装的KUbuntu。 软件安装首先是minecraft。我直接拷贝的原系统里的.minecraft文件夹。 其次是各种开发软件。我在新系统上就安装了vi，vscode，idea（java），typora（morkdown），sublimed text3（用来看文档）。 然后是一些游戏。osu!lazer，steam。 多媒体软件：2D使用的是WIMP，3D使用的是Blender和BlockBench（MC），视频剪辑暂时还没安装，没有需求。 下载软件：Ktorrent和aria2。之前配置aria2的时候吃了很多亏，现在补全了。 聊天工具：telegram，QQ-linux 翻墙：Clashr（linux版），自动生成配置文件使用了clashr for windows 软件使用代理采用了proxychains而不是系统自动代理，因为这个的pac模式有点奇怪，所以干脆直接全走代理。 文件共享：oneDrive，Resilio sync（未配置好）（权限问题） 桌面：todolist(非常方便，原因是可以自由添加，而且可以显示tab）) 输入法：fcitx rime加小鹤音形配置（位置是~/.config/fcitx/rime/） 文件目录配置原先我是在固态上划了约60g，机械上划了两个分区，一个挂在/home上，另一个挂在/home/mega上，主要原因是无法扩展分区，所以就这么将就着用了。现在就将两个分区合并，固态上还是/，机械上的两个分区都作为/home。 windows下的E盘我通过修改/etc/fstab，挂载在了/home/lawye/winfile上。 其他的小设置]]></content>
       <categories>
         <category>GUIDE</category>
       </categories>
@@ -176,8 +187,8 @@
         <category>DIARY</category>
       </categories>
       <tags>
-        <tag>inside</tag>
         <tag>大一</tag>
+        <tag>inside</tag>
       </tags>
   </entry>
   <entry>
@@ -188,8 +199,8 @@
         <category>DIARY</category>
       </categories>
       <tags>
-        <tag>inside</tag>
         <tag>大一</tag>
+        <tag>inside</tag>
         <tag>MCM/ACM</tag>
       </tags>
   </entry>
@@ -229,7 +240,7 @@
   <entry>
     <title><![CDATA[魔方]]></title>
     <url>%2F1970%2F01%2F01%2Fcube%2F</url>
-    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧. WCAid: 2019YEFA01 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧. 20190527四阶基本进60, 一般可以在55s上下波动(上5下15),总之还不是特别稳定5阶也有进入120过, 不过练习量达不到要求, 不是特别稳. 20190523 上图是目前的三速成绩这样,还是卡在15左右,唉,心累 四阶吗?夏季赛的及格线在60这样, 我还是基本出60..我觉得很悬 五阶基本没有练 150左右?? pb是116 别的好像没了 买了一堆新魔方, 我觉得今年甚至明年都不需要再买了 现在有WCAID了: 2019YEFA01 :D 是北大春季赛来的 20190315三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
+    <content type="text"><![CDATA[魔方与我 Rubix Cube对我而言,魔方是无法割舍的一个部分吧. WCAid: 2019YEFA01 我玩的魔方包括345阶,267会解但是没有专门练习过;三阶目前在15到20秒卡了1年多了,暂时没有进步,可能是练习太少.毕竟时间越来越紧. 20200911四阶基本进50五阶刚开始练yau，刚刚平均110.希望熟练以后可以进90.sq约30。五魔没练，慢慢来。 20190527四阶基本进60, 一般可以在55s上下波动(上5下15),总之还不是特别稳定5阶也有进入120过, 不过练习量达不到要求, 不是特别稳. 20190523 上图是目前的三速成绩这样,还是卡在15左右,唉,心累 四阶吗?夏季赛的及格线在60这样, 我还是基本出60..我觉得很悬 五阶基本没有练 150左右?? pb是116 别的好像没了 买了一堆新魔方, 我觉得今年甚至明年都不需要再买了 现在有WCAID了: 2019YEFA01 :D 是北大春季赛来的 20190315三阶的成绩分析:成绩波动十分大.pb(personal best)的是11.3秒.这个不练习或者练习少了就会不稳定甚至掉成绩.所以,放弃也是快乐的没有可能放弃的,这辈子都不可能的.4阶我还在60开外.不过感觉最近可以进60.5阶在2:20左右.这个还是比较尴尬的,]]></content>
       <categories>
         <category>STATISTIC</category>
       </categories>
